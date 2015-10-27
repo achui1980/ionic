@@ -10,7 +10,7 @@
  */
 
 
-angular.module('Ionic', ['ionic', 'ngCordova', 'ngResource'])
+angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource','wineApp.ajax'])
 
   .run(function($ionicPlatform) {
 
