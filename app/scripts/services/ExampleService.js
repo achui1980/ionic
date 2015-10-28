@@ -6,7 +6,7 @@
  * @description
  * # ExampleService
  */
-angular.module('Ionic')
+angular.module('wineApp')
   // use factory for services
   .factory('ExampleService', function($http, $timeout, $q) {
 

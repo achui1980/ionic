@@ -1,10 +1,10 @@
 'use strict';
 
 angular.module('wineApp.ajax', [])
-    .factory('Ajax', function($http, CONFIG) {
+    .factory('ajax', function($http, CONFIG) {
         var doAjax = function(url, method, param) {
-        	console.log(fullUrl);
             var fullUrl = CONFIG.getBaseApiURL() + url;
+            console.log(fullUrl);
             var promise = $http({
                 method: method,
                 url: fullUrl,

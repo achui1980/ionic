@@ -6,7 +6,7 @@
  * @description
  * # SettingsController
  */
-angular.module('Ionic')
+angular.module('wineApp')
   .controller('SettingsController', function($scope) {
 
     // do something with $scope

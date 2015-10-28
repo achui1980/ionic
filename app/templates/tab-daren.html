@@ -1,0 +1,28 @@
+<ion-view view-title="达人圈">
+     <ion-content class="padding-left">
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher> 
+        <div class="wine_dr" id="daren_list">
+            <dl ng-repeat="dr in drList">
+                <dt>
+                    <a href="">
+                        <img src="{{resourceURL}}{{dr.headPic}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
+                    </a>
+                </dt>
+                <dd>
+                    <p>
+                        <span>{{dr.memberInfo.province}}</span>
+                        <i>{{dr.memberInfo.nickName}}</i>
+                    </p>
+                    <p>
+                        <em>{{dr.memberInfo.height}} cm</em>
+                        <em>{{dr.memberInfo.weight}} KG</em>
+                        <em>{{dr.memberInfo.star}}</em>
+                    </p>
+                </dd>
+            </dl>
+        </div>
+        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

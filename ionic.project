@@ -1,4 +1,10 @@
 {
   "name": "ionic",
-  "app_id": ""
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://alcoholways.com:8080/api"
+    }
+  ]
 }

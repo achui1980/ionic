@@ -6,7 +6,7 @@
  * @description
  * # MainController
  */
-angular.module('Ionic')
+angular.module('wineApp')
   .controller('MainController', function($scope) {
 
     // do something with $scope

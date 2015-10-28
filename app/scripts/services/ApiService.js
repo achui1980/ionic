@@ -14,7 +14,7 @@
  *                 })
  *
  */
-angular.module('Ionic')
+angular.module('wineApp')
   .factory('ApiService', function($window, $http, API_ENDPOINT) {
 
     var _api = API_ENDPOINT;

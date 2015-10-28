@@ -13,7 +13,7 @@ var streamqueue = require('streamqueue');
 var runSequence = require('run-sequence');
 var server = require('gulp-server-livereload');
 var open = require('open');
-var targetDir = ".tmp2";
+var targetDir = "www";
 
 var errorHandler = function(error) {
     plugins.util.log(error);
@@ -190,7 +190,7 @@ gulp.task('default', function(done) {
         ],
         'index',
         'watchers',
-        'serve',
+        //'serve',
         done);
 });
 

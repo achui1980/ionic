@@ -10,7 +10,7 @@
  */
 
 
-angular.module('Ionic')
+angular.module('wineApp')
 
   // development
   .constant('API_ENDPOINT', {

@@ -9,7 +9,7 @@
  * just inject lodash as _
  */
 
-angular.module('Ionic')
+angular.module('wineApp')
   .factory('_', function($window) {
     return $window._;
   });

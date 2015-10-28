@@ -6,7 +6,7 @@
  * @description
  * # HomeController
  */
-angular.module('Ionic')
+angular.module('wineApp')
   .controller('HomeController', function($scope, ExampleService) {
 
     $scope.myHTML = null;
