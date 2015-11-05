@@ -1,0 +1,29 @@
+<ion-view view-title="{{title}}">
+    <ion-content class="padding-left">
+        <div class="button-bar">
+            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">价格</button>
+            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">销量</button>
+            <button class="button button-small button-clear icon ion-grid"></button>
+        </div>
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher>
+        <div class="wine_dr" id="wine_list">
+            <dl ng-repeat="item in itemList">
+                <dt>
+                    <a href="">
+                        <img src="{{resourceURL}}{{item.logo}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
+                    </a>
+                </dt>
+                <dd>
+                    <ul>
+                        <li><a class='entry_title' href='#'>{{item.name}}</a></li>
+                        <li><em>海外价£{{item.overseasPrice}}</em><i>销量{{item.salesNum}} </i></li>
+                        <li><span>商城价<b>￥{{item.shopPrivice}}</b></span></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

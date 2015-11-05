@@ -11,7 +11,6 @@ var mainBowerFiles = require('main-bower-files');
 var connectLr = require('connect-livereload');
 var streamqueue = require('streamqueue');
 var runSequence = require('run-sequence');
-var server = require('gulp-server-livereload');
 var open = require('open');
 var targetDir = "www";
 
@@ -70,7 +69,7 @@ gulp.task('styles', function() {
         style: 'expanded'
     };
 
-    var sassStream = gulp.src('app/styles/main.scss')
+    var sassStream = gulp.src(['app/styles/main.scss','app/styles/app.css'])
         .pipe(plugins.sass(options))
         .on('error', function(err) {
             console.log('err: ', err);
@@ -88,7 +87,7 @@ gulp.task('styles', function() {
             beep();
           });*/
 
-    return gulp.src(['app/styles/app.css', 'app/styles/main.scss'])
+    return gulp.src(['app/styles/app.scss', 'app/styles/main.scss'])
         .pipe(plugins.sass(options))
         .pipe(plugins.autoprefixer('last 1 Chrome version', 'last 3 iOS versions', 'last 3 Android versions'))
         //.pipe(plugins.order(['app/styles/main.css','app/styles/app.css']).pipe(plugins.print()))
@@ -126,7 +125,9 @@ gulp.task('index', ['scripts'], function() {
             cwd: targetDir
         }), 'app-styles'))
         .pipe(_inject(_getAllScriptSources(), 'app'))
-        .pipe(_inject(gulp.src(mainBowerFiles(),{read:false}), 'bower'))
+        .pipe(_inject(gulp.src(mainBowerFiles(), {
+            read: false
+        }), 'bower'))
         //.pipe(angularFilesort())
         .pipe(gulp.dest(targetDir))
         .on('error', errorHandler);
@@ -155,17 +156,29 @@ gulp.task('watchers', function() {
 
 // start local express server
 gulp.task('serve', function() {
-    express()
-        .use(connectLr())
-        .use(express.static(targetDir))
-        .listen(9000);
+    /* express()
+         .use(connectLr())
+         .use(express.static(targetDir))
+         .listen(9000);*/
+    plugins.connect.server({
+        root: targetDir,
+        livereload: true,
+        port: 9000
+        /*middleware: function(connect, opt) {
+            var Proxy = require('gulp-connect-proxy');
+            opt.route = '/api';
+            //opt.root = 'http://alcoholways.com:8080/api'
+            var proxy = new Proxy(opt);
+            return [proxy];
+        }*/
+    })
     open('http://localhost:9000/');
 });
 
 // copy fonts
 gulp.task('fonts', function() {
-  return gulp
-    .src(['app/fonts/*.*', 'bower_components/ionic/release/fonts/*.*'])
+    return gulp
+        .src(['app/fonts/*.*', 'bower_components/ionic/release/fonts/*.*'])
 
     .pipe(gulp.dest(path.join(targetDir, 'fonts')))
 
@@ -190,7 +203,7 @@ gulp.task('default', function(done) {
         ],
         'index',
         'watchers',
-        //'serve',
+        'serve',
         done);
 });
 
@@ -212,4 +225,3 @@ gulp.task('build', function(done) {
         //'serve',
         done);
 });
-

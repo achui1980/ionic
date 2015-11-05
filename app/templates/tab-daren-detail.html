@@ -1,0 +1,21 @@
+<ion-view>
+     <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
+     <ion-content class="padding-left">
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher> 
+        <!--达人头像banner-->
+        <div class="">
+            <div class="wine_drtx2">
+                <ul ng-switch on="drInfo.sex">
+                    <li ng-switch-when="女"><a href="" class="l"><img src="images/nv_icon.png"><p>靓女</p></a></li>
+                    <li ng-switch-when="男"><a href="" class="l"><img src="images/nan_icon.png"><p>帅哥</p></a></li>
+                    <li class="wine_dr_touxiang"><img src="{{resourceURL}}{{drInfo.headPic}}"></li>
+                    <li><a href="" class="r"><img src="images/gz_icon.png"><p>关注数 {{drInfo.fansAmount}}</p></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

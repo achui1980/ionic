@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+a{ text-decoration:none; color:#fff;}
+li{ list-style:none;}
+img,a img{ border:none; display:block;}
+i, em{ font-style:normal;}
+input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
+h1{ float:left; width:97%; font-size:1em; color:#333; font-weight:400; padding:2% 0 0 3%; background-color:#fff;}
+h2{ float:left; width:100%; border-bottom:1px #eee solid; border-top:1px #eee solid;}
+h2 a{ float:left; display:inline-block; width:33.3333%; text-align:center; font-size:0.62em; color:#666; font-weight:400; padding:10px 0;}
+h2 a:active,h2 a.wine_active{ color:#6b4485; border-bottom:2px #6b4485 solid;}
+h2 a span img{ float:right; position: relative; width:10%; right:25px; margin-top:4px;}
+h2 a em img{display: block; width:20%; margin:0 auto;}
+h2 a i{ margin-left:5px;}
+h3{font-size:1em; font-weight:400; padding:10px 0 5px 10px; color:#6b4485;}
+h4{font-size:0.9em; padding:3%; border-bottom:1px #f8f8f8 solid; margin-top:5px; font-weight:400; color:#666;}
+h4 span{ float:right; color:#6b4485;}
+h4 a{ float:right; color:#999;}
+
+/*top_start*/
+.wine_header{ position:fixed; width:100%; top:0px; left:0px; z-index: 2000; height:48px; line-height:48px; background:url(../images/topbg.jpg) no-repeat; background-size: cover; color:#6b4485;}
+.wine_toptitle{ text-align:center; font-size:1.2em;}
+.wine_more{ position:absolute; right:0; top:12px;}
+.wine_more a{ float:left; margin:0 -12px 0 0;}
+.wine_more a img{width:55%;}
+.wine_home{position:absolute; top:13px; width:10%;}
+.wine_home a img{ display:block; width:100%;}
+.wine_mybianji{position:absolute; right:3%; font-size:0.9em; top:1px;}
+.wine_mybianji a{ color:#999;}
+
+
+/*首页_start*/
+	/*banner*/
+	.wine_img100{ float:left; width:100%;}
+	.wine_img100 img{width:100%;}
+	
+	/*首页 推荐*/
+	.wine_tuijian{ float:left; width:100%; background-color:#f8f8f8;}
+	.wine_tuijian dl{ float:left; width:100%; margin-bottom:10px; background-color:#fff;}
+	.wine_tuijian dt{ width:96%; padding:2% 2% 0 2%; overflow:hidden; z-index:1; line-height:2.5em;}
+	.wine_tuijian dt a.wine_mingcheng{ float:left; font-size:0.8em; color:#555;}
+	.wine_tuijian dt a.wine_mingcheng img{ float:left; position:relative; width:36px; border-radius:50%; top:0px; margin-right:8px;}
+	.wine_tuijian dt span{ float:right; font-size:0.8em; margin-right:-20px;}
+	.wine_tuijian span a{ float:left;}
+	.wine_tuijian span a.wine_zan{color:#555;}
+	.wine_tuijian span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
+	.wine_tuijian span a.wine_del img{ float:left; width:40%; margin:12px -23px 0 0;}
+	.wine_tuijian dd{position:relative; margin:0 2% 2% 2%;}
+	.wine_tuijian dd img{ width:100%;}
+	
+	/*首页 达人*/
+	.wine_dr{ display:inline-block; width:100%;}
+	.wine_dr dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_dr dt img{ width:100%;}
+	.wine_dr dd{ float:left; padding:4% 3%; width:94%;}
+	.wine_dr dd p{ float:left; width:100%; position:relative; z-index:2; line-height:1.6em; font-size:0.8em;}
+	.wine_dr dd p i{ float:left;}
+	.wine_dr dd p img{ float:left; width:32%; margin-left:5px; padding-top:1px;}
+	.wine_dr dd p span{ float:right; color:#6b4485;}
+	.wine_dr dd p em{ float:left; width:33.3%; color:#999; text-align:center; margin-top:5px;}
+	
+	
+	/*首页 酒庄*/
+	.wine_jz{ float:left; width:100%; background-color:#fff; margin-top:5px;}
+	.wine_jz ul li{ float:left; text-align:center; position:relative; margin:2% 0 2% 3%; width:25.6%; border:1px #f3f3f3 solid; border-radius:15px; padding:1.5%;}
+	.wine_jz li img{ float:left; width:100%; border-radius:10px; margin-bottom:3px;}
+	.wine_jz ul li a{ color:#555; font-size:0.7em; line-height:1.6em;}
+
+/*footer_start*/
+.wine_footer{ position:fixed; bottom:-22px; left:0; width:100%; z-index:1999; background-color:#f3f3f3; border-top:1px #ddd solid;}
+.wine_footer li{ float:left; width:20%; font-size:0.7em; line-height:1.8em;}
+.wine_footer li a{ position: relative; z-index:2000; display:block; width:100%; text-align:center; color:#666; padding:5px 0;}
+.wine_footer li a img{ width:36%; margin:0 auto;}
+.wine_footer li a.wine_domicon3,.wine_footer li a:hover.wine_domicon3{width:100%; bottom:19px; background:url(../images/bom_home_icon.png) no-repeat center 0; background-size:cover; padding-top:70px;}
+.wine_footer li a.wine_bom_select{ color:#a95294;}
+
+
+/*达人_start*/
+.wine_drtx{ float:left; width:92%; margin:4%;}
+.wine_drtx dt{ float:left; width:20%}
+.wine_drtx dt img{ border-radius:50%; border:3px #fff solid; width:100%;}
+.wine_drtx dd{float:left; width:76%; color:#555; margin:3% 0 0 4%; font-size:0.8em;}
+.wine_drtx dd li b{ font-size:1.4em; font-weight:400; line-height:1.6em;}
+.wine_drtx dd li a{ float:right; font-size:0.8em; text-align:right; padding:5px 20px; border-radius:3px; position: relative; z-index:1; background-color:#000; filter:Alpha(opacity=20); background-color: rgba(0,0,0,0.2);}
+
+/*达人_start*/
+	/*达人头像*/
+	.wine_drtx2{position: relative; float:left; width:90%; margin:20px 10px auto;}
+	.wine_drtx2 li a{position:absolute; width:30%; text-align:center;color:#999; font-size:0.7em; line-height:2em;}
+	.wine_drtx2 li a.l{ left:0; top:36%;}
+	.wine_drtx2 li a.r{ right:0; top:36%;}
+	.wine_drtx2 li a img{width:40%; border:2px #6b4485 solid; border-radius:50%; margin:0 auto;}
+	.wine_drtx2 li.wine_dr_touxiang{width:40%; margin:0 auto;}
+	.wine_drtx2 li.wine_dr_touxiang img{ border-radius:50%; border:3px #fff solid; width:100%; padding:6%; border:2px #6b4485 dashed;}
+	
+	/*达人首页*/
+	.wine_drhome{ float:left; width:100%;}
+	.wine_drhome li{ float:left; width:96%; position:relative; margin:2%;}
+	.wine_drhome li img{ width:100%;}
+	.wine_drhome .wine_drbz{ position: absolute; bottom:0; left:0; width:94%; padding:2% 3%; color:#fff; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
+	.wine_drhome .wine_drbz p{font-size:1em;}
+	.wine_drhome .wine_drbz span{font-size:0.8em; color:#ccc;}
+	.wine_mytuijian{ display:inline-block; width:100%;}
+	.wine_mytuijian li{display:inline-block; position:relative; margin:2% 2% 1% 2%;}
+	.wine_mytuijian li img{ width:100%;}
+	.wine_mytuijian .wine_drbz{ position: absolute; bottom:0; left:0; width:94%; padding:2% 3%; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
+	.wine_mytuijian .wine_drbz p{ font-size:1em; color:#fff; margin-bottom:10px;}
+	
+	/*达人基本信息*/
+	.wine_drzbxx{float:left; width:100%;}
+	.wine_drzbxx li{float:left; width:100%; padding:4% 3%; border-bottom:1px #eee solid;}
+	.wine_drzbxx li span,.wine_drzbxx li img{ float:left;}
+	
+	/*达人留言*/
+	.wine_drliuyan{ float:left; width:100%;}
+	.wine_drliuyan dl{ float:left; width:94%; border-bottom:1px #eee solid; padding:3%;}
+	.wine_drliuyan dt{float:left; width:15%}
+	.wine_drliuyan dt img{border-radius:50%; border:3px #fff solid; width:100%;}
+	.wine_drliuyan dd{ float:left; width:82%; margin:3% 0 0 3%; color:#999; font-size:0.7em;}
+	.wine_drliuyan dd p{ color:#555; font-size:1.2em;}
+	.wine_drliuyan dd a{ float:right; background-color:#6b4485; padding:5px 12px; border-radius:3px; margin-left:5px;}
+	.wine_drliuyan dd.wine_huifu{ color:#ccc; width:97%;}
+	.wine_drliuyan dd.wine_huifu span{ color:#6b4485;}
+	.wine_wyly{ float:left; margin:5%; width:90%;}
+	.wine_wyly li p{ color:#555;}
+	.wine_wyly li textarea{ width:94%; border:1px #eee solid; margin-top:5px; color:#666; padding:3%}
+	.wine_wyly li a{ float:left; background-color:#6b4485; width:100%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin-top:5px;}
+	/*弹出框*/
+	.wine_upbox{ position:absolute; width:80%; margin:50% 10%; z-index:2009; border-radius:3px; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
+	.wine_upbox textarea{ width:83%; border:1px #ccc solid; height:60px; margin:18% 5% 3% 5%; border-radius:3px; padding:3%;}
+	.wine_upbox li a{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:0 5% 15px 5%;}
+	.wine_upbox p{ position: absolute; top:5%; right:-8%;}
+	.wine_upbox p img{ width:50%;}
+
+/*红酒_start*/
+	/*红酒首页*/
+	.wine_daiyan{display:inline-block; width:100%;}
+	.wine_daiyan li{ float:left; width:47%; display:inline-block; position:relative; margin:2% 0 0 2%;}
+	.wine_daiyan li img{ width:100%;}
+	.wine_drbz{ float:left; position: absolute; bottom:0; left:0; width:94%; padding:3%; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
+	.wine_drbz p{ float:left; width:100%;}
+	.wine_drbz a.wine_mingcheng{ float:left; line-height:1.8em; font-size:0.8em;}
+	.wine_drbz a.wine_mingcheng img{ float:left; position:relative; width:24px; border-radius:50%; top:0px; margin-right:5px;}
+	.wine_drbz span{ float:right; font-size:0.8em; margin-right:-20px;}
+	.wine_drbz span a.wine_zan{color:#555;}
+	.wine_drbz span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
+	/*红酒*/
+	.wine_redjiu{ display:inline-block; width:100%;}
+	.wine_redjiu dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_redjiu dt img{ width:100%;}
+	.wine_redjiu dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%;}
+	.wine_redjiu dd li{ float:left; width:100%; }
+	.wine_redjiu dd li a{ float:left; color:#555; font-size:0.8em; margin:8px 0; line-height:1.2em;}
+	.wine_redjiu dd li em{ float:left; color:#999; font-size:0.7em;}
+	.wine_redjiu dd li i{ float:right; color:#999; font-size:0.7em;}
+	.wine_redjiu dd li span{ float:left; font-size:0.7em; margin:5px 0;}
+	.wine_redjiu dd li span b{ color:#6b4485; font-size:1.3em; font-weight:400;}
+	
+	/*酒庄介绍*/
+	.wine_jzabout{ float:left; margin:10px 12px; font-size:0.8em; line-height:1.8em;}
+	.wine_jzabout p{ font-size:1.2em; color:#6b4485;}
+
+	/*红酒分类*/
+	.wine_pro_list li a{position: relative;z-index:9999; border:1px #999 solid; border-left:none; border-top:none; top:48px; float:left; display:block; width:33%; padding:20px 0;text-align:center; font-size:0.9em;}
+	.wine_pro_list li a:hover,.wine_sec{ background-color:#6b4485;}
+	
+/*购物车*/
+.wine_shopcar dl{ float:left; width:96%; border-bottom:1px #eee solid; padding:10px 2%;}
+.wine_shopcar dt{ float:left; width:20%; margin-top:-18px;}
+.wine_shopcar dt input{ position:relative; top:40px;}
+.wine_shopcar dt img{ width:100%; position:relative; margin-left:15px;}
+.wine_shopcar dd{ float:left; width:75%; margin-left:5%; font-size:0.8em; color:#999; line-height:2em;}
+.wine_shopcar dd a{ color:#555; font-size:1.2em;}
+.wine_shopcar dd em{ float:right;}
+.wine_shopcar dd em a{ float:left; display:block; font-size:0.8em; color:#999;}
+.wine_shopcar dd em a img{ float:left; width:15%; margin:6px 3px 0 0;}
+.wine_shopcar dd b{ color:#6b4485; font-size:1.2em; font-weight:400;}
+.wine_shopcar dd span{ text-decoration:line-through;}
+.wine_shopcar dd label{ float:left; margin-right:5px;}
+.bb_inpNO{ float:left; width:50px; height:22px; border:1px #eee solid; border-left:none; border-right:none; text-align:center;}
+.bor_Rnone,.bor_Lnone{float:left; width:22px; height:22px; border:1px #eee solid; text-align:center; color:#999; line-height:22px;}
+.bor_Rnone,.bor_Lnone{ background-color:#eee; color:#6b4485;}
+.wine_shopcar_jiesuan{ position:fixed; bottom:0; width:100%;}
+.wine_shopcar_jiesuan li{ float:left; width:33.3%; font-size:0.8em; margin-top:10px; height:42px; line-height:42px; background-color:#eee; border-top:1px #ddd solid;}
+.wine_shopcar_jiesuan input{ margin:0 5px 0 10px; position:relative; top:2px;}
+.wine_shopcar_jiesuan li a{ float:left; background-color:#6b4485; text-align:center; width:100%;}
+.wine_shopcar_jiesuan li b{ color:#6b4485; font-weight:400;}
+
+/*我的酒旅*/
+.wine_mybanner{ float:left; position: relative; width:100%; background:url(../images/temp/mybg.jpg) no-repeat; background-size: cover;}
+.wine_mytx{ float:left; width:92%; margin:10px 4%;}
+.wine_mytx dt{ float:left; width:20%;}
+.wine_mytx dt img{ border-radius:50%; border:3px #fff solid; width:100%;}
+.wine_mytx dd{float:left; width:76%; color:#555; margin:3% 0 0 4%; font-size:0.8em;}
+.wine_mytx dd li b{font-size:1.4em; font-weight:400; line-height:1.6em;}
+.wine_mytx p{ float:right; width:100%; font-size:0.8em; text-align:right;}
+.wine_mytx p a{ color:#555;}
+.wine_mytj{ float:left; position: relative; bottom:0; width:100%; text-align:center; font-size:0.8em;}
+.wine_mytj li{ float:left; display:inline; color:#fff; width:32%; margin:0 0.65%; padding:5px 0;  background-color:#000; filter:Alpha(opacity=15); background-color: rgba(0,0,0,0.15);}
+
+.wine_mywine{ float:left; width:100%; background-color:#f8f8f8;}
+.wine_mybox{ float:left; width:100%; background-color:#fff; margin-bottom:10px;}
+.wine_mybox a{ color:#555;}
+.wine_mydd a{ float:left; display:block; width:100%; border-bottom:1px #f3f3f3 solid; padding:12px 0;}
+.wine_mydd a span{ float:left; color:#555; font-size:0.9em; margin:3px 0 0 10px;}
+.wine_mydd a span img{ float:left; width:15%; margin:1px 5px 0 0;}
+.wine_mydd a em{ float:right; color:#999; margin:3px 10px 0 0; background: url(../images/my_r_icon.png) no-repeat right; padding-right:18px; font-size:0.9em;}
+.wine_mydd a i{ float:right; text-indent:-9999px; margin:3px 10px 0 0; background: url(../images/my_r_icon.png) no-repeat right 0; padding-right:18px;}
+.wine_mydfk{ margin:0 auto; width:100%; border-bottom:1px solid #eee; overflow:hidden;} 
+.wine_mydfk li{ float:left; width:25%; padding:10px 0;} 
+.wine_mydfk li a{ position: relative; width:100%; display:block; text-align:center; font-size:0.8em;} 
+.wine_mydfk li a img{ width:40%; margin:0 auto;}
+.wine_zhushi{position: absolute;float:right; right:15px;top:0; font-size:0.8em; width:14px; line-height:14px; height:14px; background-color:#6b4485; border-radius:50%; color:#fff; z-index:999;}
+	
+	/*我的账户*/
+	.wine_myzh li{float:left; display:block; width:100%; border-bottom:1px #f3f3f3 solid; padding:15px 0;}
+	.wine_myzh li a span{ display:block; padding-left:15px;}
+	.wine_pin{ padding-top:8px;}
+	.wine_myzh li a em{ float:right; margin:0 15px; background: url(../images/my_r_icon.png) no-repeat right; padding-right:18px; text-indent:-9999px;}
+	.wine_myzh li a em img{ float:right; border-radius:50%; width:36px;}
+	.wine_myzh li a i{ float:right; color:#999; margin:0 15px; font-size:0.9em;}
+	/*酒庄试酒*/
+	.wine_myjzsj{ float:left; width:100%;}
+	.wine_myjzsj dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_myjzsj dt img{ width:100%;}
+	.wine_myjzsj dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%;}
+	.wine_myjzsj dd li{ float:left; width:100%; }
+	.wine_myjzsj dd li a{color:#555; font-size:0.8em; margin:5px 0;}
+	.wine_myjzsj dd li span{font-size:0.9em; color:#a95293;}
+	.wine_myjzsj dd li em{color:#999; font-size:0.7em;}
+	.wine_myjzsj dd li a.wine_shbtn{ float:left; width:100%; background-color:#eee; padding:7px 0; text-align:center; border-radius:3px;}
+	/*我的足迹*/
+	.wine_myzj{ float:left; width:100%;}
+	.wine_myzj dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_myzj dt img{ width:100%;}
+	.wine_myzj dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%; font-size:0.8em;}
+	.wine_myzj dd a{color:#555;}
+	/*我的订单*/
+	.wine_order_list{ float:left; width:100%; background-color:#fff; margin-bottom:10px;}
+	.wine_order_list dl{ float:left; width:94%; border-bottom:1px #f8f8f8 solid; padding:3%;}
+	.wine_order_list dt{ float:left; width:30%;}
+	.wine_order_list dt img{ width:100%; position:relative;}
+	.wine_order_list dd{ float:left; width:67%; margin-left:3%; font-size:0.8em; color:#999; line-height:1.5em;}
+	.wine_order_list dd a{ color:#555; font-size:1.2em;}
+	.wine_order_list dd p{ margin:5px 0; color:#999;}
+	.wine_order_list dd b{ color:#6b4485; font-size:1em; font-size:400;}
+	.wine_order_list dd span{ text-decoration:line-through;}
+	.wine_order_list dd .wine_order_time{ font-size:0.7em; color:#999;}
+	.wine_order_btn{ float:right; margin:15px 0 20px 0;}
+	.wine_order_btn a{ font-size:0.8em; margin-right:10px; padding:5px 12px; border:1px #eee solid; border-radius:3px; color:#555;}
+	.wine_order_btn a.wine_order_confirm{ background-color:#6b4485; color:#fff; border:none;}
+	.wine_order_btn a.wine_order_confirm2{ background-color:#ddd; color:#fff; border:none;}
+	/*我的维权*/
+	.wine_myrights ul{ float:left; width:92%; padding:4%; font-size:0.9em; line-height:1.8em; background-color:#fff; margin-bottom:10px;}
+
+/*登录*/
+.wine_login ul{ display:table; width:85%; margin:30px auto; border:1px #eee solid; border-radius:3px; overflow:hidden;}
+.wine_login li{ float:left; width:100%; border-bottom:1px #ddd solid; overflow:hidden;}
+.wine_login li span{ float:left; text-align:right; width:15%; padding:6% 3% 3% 3%; font-size:0.8em; color:#666;}
+.wine_login li input{ float:left; width:68%; border:none; padding:6% 5%; color:#999; margin:0.5%; overflow:hidden;}
+.wine_login li.wine_clearline{ border:none;}
+.wine_login p a{ display:table; width:75%; margin:0 auto; background-color:#6b4485; padding:3% 5%; border-radius:3px; text-align:center; font-size:1em;}
+.wine_zhuce a{ float:right; display:block; color:#999; margin:20px 30px 0 0; font-size:0.8em;}
+	/*注册*/
+	.wine_password ul{ width:85%; margin:15px auto; overflow:hidden;}
+	.wine_password li{ float:left; width:100%; overflow:hidden; font-size:0.8em; margin-top:15px;}
+	.wine_password li label{ float:left; width:20%; text-align:right; margin:8px 10px 0 0; color:#666;}
+	.wine_password li input{ float:left; width:62%; border:1px #eee solid; border-radius:3px; padding:3% 5%; color:#999; overflow:hidden;}
+	.wine_password li span{ float:left; margin:10px 0 0 24%; color:#ccc;}
+	.wine_password p{ float:left; width:74%; margin:5% 8%; background-color:#6b4485; padding:3% 5%; border-radius:3px; text-align:center; font-size:1em;}
+
+/* 遮罩层 */
+.wine_zzc_div{ position:fixed; bottom:0px; right:0px; width:100%; height:100%;  background-color: Gray;filter:alpha(Opacity=90);-moz-opacity:0.9;opacity: 0.9;z-index:2001; display:none;}
+/*底部首页弹框_start*/
+.wine_footkuan li a{position: relative;z-index:9999; top:200px; float:left; display:block; width:33.3%; padding-top:68px;text-align:center; font-size:0.9em;}
+.wine_footkuan li a.wine_xjicon{ background:url(../images/xj_icon.png) no-repeat center 0;}
+.wine_footkuan li a.wine_fxicon{ background:url(../images/fx_icon.png) no-repeat center 0;}
+.wine_footkuan li a.wine_homeicon{ background:url(../images/home_icon.png) no-repeat center 0;}
+.wine_cloes a{position:fixed; display:block; left:40%; width:20%; text-indent:-9999px; width:60px; height:60px; bottom:100px; background:url(../images/cloes_icon.png) no-repeat center 0; text-align:center;}
+
+/*产品详情*/
+.wine_jzbanner{ float:left; width:94%; background:url(../images/temp/jzbg.jpg) repeat-x; padding:10px 3%;}
+.wine_jzbanner dt img{ float:left; width:60px;}
+.wine_jzbanner dd{ float:left; margin:18px 0 0 10px; color:#fff;}
+.wine_jzbanner dd a{ padding:5px 10px; background-color:#6b4485; margin-left:10px; border-radius:3px;}
+.wine_products_more{ font-size:0.9em;}
+.wine_products_more dt img{width:100%;}
+.wine_products_more dd{ border-bottom:1px #ddd solid; padding:10px;}
+.wine_products_more dd span{ color:#999; font-size:0.7em;}
+.wine_price{ float:left; width:100%; margin:10px 0; padding-bottom:20px; line-height:1.8em; font-size:0.8em; border-bottom:10px #f6f6f6 solid;}
+.wine_price ul{ margin:0 10px;}
+.wine_price em{ float:right;}
+.wine_price b{ color:#6b4485; font-size:1.2em; font-weight:400;}
+.wine_price label{ float:left; margin-right:5px;}
+.wine_price i{ color:#999;}
+.wine_id{ float:left;}
+.wine_id p img{ float:left; margin:2%; width:96%;}
+.wine_id ul{ float:left; margin:0 3% 3% 3%;}
+.wine_id ul li{ float:left; width:100%; font-size:0.8em; color:#666; line-height:1.8em;}
+.wine_pingjia dl{ float:left; width:94%; border-bottom:1px #eee solid; padding:10px 3%; font-size:0.8em;}
+.wine_pingjia dt img{ float:left; border-radius:50%; border:3px #fff solid; width:28px;}
+.wine_pingjia dt span{ float:left; margin-left:5px; padding-top:8px; color:#666;}
+.wine_pingjia dd{ float:left; width:100%;}
+.wine_pj_time{ color:#999; font-size:0.7em; margin-top:5px;}
+.wine_promore{ float:left; width:100%;}
+.wine_tuwenmore{ float:left; width:96%; margin:2%;}
+.wine_tuwenmore img{ width:100%;}
+	/*底部购买*/
+.wine_shopping{ position:fixed; bottom:0; width:100%;}
+.wine_shopping li{ float:left; width:33.3%; font-size:0.8em; margin-top:10px; height:42px; line-height:42px; background-color:#eee; border-top:1px #ddd solid;}
+.wine_shopping li a{ float:left; background-color:#eee; width:100%; color:#555;}
+.wine_shopping li a.wine_sc{ float:left; text-align:left; margin-left:20px;}
+.wine_shopping li a.wine_sc img{float:left; width:14%; margin:13px 3px 0 0;}
+.wine_shopping li a.wine_jlshopcar{ float:left;}
+.wine_shopping li a.wine_jlshopcar img{ float:left; width:14%; margin:13px 4px 0 0;}
+.wine_shopping li a.wine_jgshop{ background-color:#6b4485; color:#fff; text-align:center;}
+
+/*搜索*/
+.wine_search{ float:left; width:100%; background-color:#eee; padding:10px 0;}
+.wine_search select{ float:left; width:21%; margin-left:2%; border:1px #eee solid; border-right:none; height:34px; padding:0 8px; border-top-left-radius:5px; border-bottom-left-radius:5px;}
+.wine_search input{ float:left; position:relative; width:70%;  border:1px #eee solid; height:32px; padding:0 8px; border-top-right-radius:5px; border-bottom-right-radius:5px;}
+.wine_search a{ position:absolute; display:block; width:5%; margin-top:8px; right:5%; overflow:hidden;}
+.wine_search a img{  width:100%;}
+.wine_search_list{ display:table; width:100%;}
+.wine_search_list dl{ float:left; width:96%; border-bottom:1px #eee solid; padding:10px 2%;}
+.wine_search_list dt{ float:left; width:26%;}
+.wine_search_list dt img{ width:100%; position:relative; border:1px #f8f8f8 solid;}
+.wine_search_list dd{ float:left; width:70%; margin-left:4%; font-size:0.8em; color:#999; line-height:2em;}
+.wine_search_list dd a{ display:block; color:#555; font-size:1.2em;}
+.wine_search_list dd a span{ color:#999; font-size:0.9em;}
+.wine_search_list dd b{ color:#6b4485; font-size:0.9em; font-weight:400;}
+
+/*表单*/
+.wine_table{ float:left; width:94%; margin:3%;}
+.wine_table li{ float:left; margin:8px 0; width:100%; font-size:0.8em;}
+.wine_table label{ float:left; width:24%; margin:5px 1% 0 0; font-size:0.8em; text-align:right; color:#666;}
+.wine_table input,.wine_table textarea{ float:left; width:66%; border:1px #eee solid; padding:6px 3%; border-radius:3px;}
+.wine_table i{ color:#f00;}
+.wine_table span{ float:left; margin-right:10px;}
+.wine_table span input{ float:left; width:inherit; margin:5px 5px 0 0;}
+.wine_table span em{ float:left;}
+.wine_table span select{ padding:3%; border:1px #eee solid;}
+.wine_table a{ float:left; width:100%; background-color:#6b4485; padding:7px 0; text-align:center; border-radius:3px;}
+.wine_table b{ float:left; font-weight:400; color:#999; font-size:0.7em; margin-top:3px;}
+
+/*收货地址*/
+.wine_add{float:left; width:100%; font-size:0.9em; background-color:#f8f8f8;}
+.wine_add dl{float:left; width:100%; background-color:#fff; margin-bottom:10px;}
+.wine_add dt{float:left; display:block; width:90%; line-height:1.8em; padding:3% 5%; border-bottom:1px #f3f3f3 solid;}
+.wine_add dt a{ color:#333;}
+.wine_add dt a p span{ float:right;}
+.wine_add dt a em{ color:#999;}
+.wine_add dd{ float:right;}
+.wine_add dd a{ float:left;color:#666; margin:10px 0;}
+.wine_add dd a img{ float:left; width:16%; margin:2px 5px 0 0;}
+.wine_newadd{ float:left; position:fixed; width:90%; margin:5%; bottom:65px;}
+.wine_newadd a{ float:left; width:100%; background-color:#6b4485; padding:7px 0; text-align:center; border-radius:3px;}
+
+/*订单详情*/
+.wine_order_jindu_line{border:1px #eee solid; position:absolute; top:54%;  width:93%; margin:0 3%;}
+.wine_order_jindu{float:left; position:relative; width:100%;}
+.wine_order_jindu ul{float:left; width:94%; margin:3%;}
+.wine_order_jindu li{ float:left; width:25%; padding:10px 0 5px 0;} 
+.wine_order_jindu li a{ position: relative; display:block; width:100%; text-align:center; font-size:0.8em; color:#999;} 
+.wine_order_jindu li a img{ width:48%; margin:0 auto;}
+.wine_order_jindu li a p{ margin-top:8px;}
+
+.wine_business{ float:left; width:100%; border-top:10px #f8f8f8 solid;}
+.wine_business dl{float:left; width:94%; margin:3%;}
+.wine_business ul{float:left; width:94%; margin:0 3% 3% 3%;}
+.wine_business dt{ float:left; width:20%; margin-top:10px;}
+.wine_business dt img{ width:100%; border-radius:5px;}
+.wine_business dd{ float:left; width:77%; margin:8px 0 0 3%; line-height:1.2em; font-size:0.9em;}
+.wine_business dd p{ color:#6b4485; margin-top:5px; font-size:1.1em;}
+.wine_business li{float:left; display:inline-block; width:50%; margin:0 auto;}
+.wine_business li a{float:left; width:66%; padding:5px 15%; border:1px #eee solid; border-radius:5px; text-align:center; margin:15px 0 5px 0;font-size:14px; color:#666;}
+.wine_business li a img{ float:left; width:18%; margin-top:2px;}
+.wine_business li a.wine_business_service{ float:right;}
+
+.wine_order_box{float:left; width:100%; border-top:10px #f8f8f8 solid;}
+.wine_order_box li{ margin:15px; font-size:0.8em; color:#666;}
+
+.wine_wuliu{float:left; width:100%; border-top:10px #f8f8f8 solid;}
+.wine_wuliu ul{float:left; width:94%; margin:3%}
+.wine_wuliu li{ color:#999; font-size:0.8em; margin-bottom:3%;}
+.wine_wuliu li.wine_wuliu_new{ color:#6b4485;}
+
+/*分享*/
+.wine_share_tu{ font-size:0.9em;}
+.wine_share_tu dt img{width:100%;}
+.wine_share_tu dd{padding:2% 5%;}
+.wine_share_tu dd p{ color:#999;}
+.wine_share_tu dd p b{ color:#6b4485;}
+.wine_share dl{float:left; width:100%; text-align:center; border-top:10px #f8f8f8 solid;}
+.wine_share dl dt{float:left; width:40%; margin:5% 30% 0 30%;}
+.wine_share dl dt img{ width:100%;}
+.wine_share dl dd{ color:#999; font-size:0.9em;}
+.wine_share dl dd p{ font-size:1.2em; color:#333;}
+.wine_share ul{ float:left; width:100%; margin-top:5%; border-top:10px #f8f8f8 solid;}
+.wine_share li{ float:left; width:40%; margin:5%; text-align:center; font-size:0.9em;}
+.wine_share li img{ float:left; width:60%; margin:0 20%;}
+	/*分享达人*/
+	.wine_share_dr{ float:left; width:100%; background-color:#f8f8f8;}
+	.wine_share_dr dl{ float:left; width:100%; margin-bottom:10px; background-color:#fff;}
+	.wine_share_dr dt img{ width:100%;}
+	.wine_share_dr dd{ width:96%; padding:2% 2% 0 2%; overflow:hidden; z-index:1; line-height:2.5em;}
+	.wine_share_dr a.wine_mingcheng{ float:left; font-size:0.8em; color:#555;}
+	.wine_share_dr a.wine_mingcheng img{ float:left; position:relative; width:36px; border-radius:50%; top:0px; margin-right:8px;}
+	.wine_share_dr span{ float:right; font-size:0.8em; margin-right:-20px;}
+	.wine_share_dr span a.wine_zan{color:#555;}
+	.wine_share_dr span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
+
+
+/*右上角弹框_start*/
+.wine_morekuan{ display:none; position: fixed; z-index:9999; width:90px; background-color:#fff; right:0; top:48px; border:1px #eee solid; border-bottom:none;}
+.wine_morekuan li a{ float:left; display:block; padding:10px 0; border-bottom:1px #eee solid; color:#666; font-size:0.8em;}
+.wine_morekuan li a img{ float:left; width:28%; margin:-2px 10px 0 10px;}
+.wine_sjx{ position: absolute; width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:5px solid #ddd; top:-5px; bottom:0; right:16px;}
+
+/*发布图片*/
+.wine_fbtu img{width:100%;}
+.wine_fbtu2{float:left; width:27%; margin:3%;}
+.wine_fbtu2 a img{ display:block; width:100%; border:1px #eee solid;}
+.wine_jiatu{float:left; width:27%; margin:3%;}
+.wine_jiatu a img{ display:block; width:40%; border:1px #eee solid; padding:30%;}
+.wine_fbbtn a{ float:left; width:43%; margin:5% 3% 1% 3%; padding:2% 0; background-color:#6b4485; border:1px #6b4485 solid; border-radius:3px; text-align:center;}
+.wine_fbbtn a.wine_cancel{background-color:#fff; border:1px #6b4485 solid; color:#6b4485;}
+.wine_fbbtn2{ float:left; width:100%;}
+	/*弹出框*/
+	.wine_fbtubox{ position:absolute; width:90%; margin:5%; z-index:2009; border-radius:3px; background-color:#fff; filter:Alpha(opacity=90); background-color: rgba(255,255,255,0.9); border:1px #f3f3f3 solid;}
+	.wine_fbtubox ul{ float:left; margin:10% 5% 5% 5%;}
+	.wine_fbtubox li{ float:left; width:100%; border-bottom:1px #f6f6f6 solid; padding:3% 0;}
+	.wine_fbtubox li a img{ float:left; width:15%;}
+	.wine_fbtubox li a span{ float:left; width:82%; margin:2% 0 0 3%; color:#333; font-size:0.8em;}
+	.wine_tjbtn{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:10px 5%;}
+	.wine_fbtubox p{ position: absolute; top:1; right:-11%;}
+	.wine_fbtubox p img{ width:50%;}
+	/*添加图片弹出框*/
+	.wine_fbtubox2{ position:absolute; width:80%; margin:0 10%; z-index:2009; border-radius:3px; background-color:#fff; filter:Alpha(opacity=90); background-color: rgba(255,255,255,0.9);}
+	.wine_fbtubox2 span img{ width:100%;}
+	.wine_tjbtn{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:10px 5%;}
+	.wine_fbtubox2 p{ position: absolute; top:1%; right:-10%;}
+	.wine_fbtubox2 p img{ width:50%;}
+	.wine_biaoqian{ position: absolute; z-index:9999; top:30%; left:10%; padding:3% 5%; font-size:0.9em; color:#fff; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7); 
+					border-top-left-radius:20px; border-bottom-right-radius:20px; border-top-right-radius:5px; border-bottom-left-radius:5px;}
+	.wine_biaoqian span a{ float:left; margin:5px 0 0 10px;}
+	.wine_biaoqian p{ position: absolute; top:-50%; right:-25%;}
+	.wine_biaoqian p img{ width:40%;}
+	.wine_biaoqian input{ float:left; padding:3%; border:1px #eee solid; border-radius:3px;}
+	
+	.wine_jiatu2{float:left; width:40%; margin:15% 30%;}
+	.wine_jiatu2 a img{ display:block; width:100%; border:1px #eee solid;}
+	
+	.wine_fbtu_list ul{ margin:10% 5% 0 5%;}
+	.wine_fbtu_list li{ float:left; width:100%; border-bottom:1px #f6f6f6 solid; padding:3% 0;}
+	.wine_fbtu_list li a img{ float:left; width:20%;}
+	.wine_fbtu_list li a span{ float:left; width:77%; margin-left:3%; color:#333;}

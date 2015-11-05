@@ -9,19 +9,17 @@
 angular.module('wineApp')
     .controller('DrController', function($window, $scope, ajax, CONFIG) {
         $scope.page = 0;
+        var fetchSize = 10;
         $scope.end = false;
-        //var ajaxUrl = CONFIG.API.daren + '?offset=0&fetchSize=6';
         $scope.resourceURL = CONFIG.getResourceURL();
         console.log(CONFIG.getResourceURL())
         $scope.imgWidth = ($window.innerWidth) * 0.46;
-        var list = [];
+        $scope.drList = [];
         $scope.loadMoreItems = function() {
-            var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * 10) + '&fetchSize=10';
+            var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * fetchSize) + '&fetchSize='+fetchSize;
             ajax.get(ajaxUrl).then(function(response) {
             	console.log($scope.page);
-            	//$scope.drList = (response.data.msg.data);
-            	Array.prototype.push.apply(list, response.data.msg.data);
-                $scope.drList = list ;
+            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
                 $scope.page = $scope.page + 1;
                 if(response.data.msg.data.length == 0) $scope.end = true;
                 $scope.$broadcast('scroll.infiniteScrollComplete');
@@ -29,30 +27,36 @@ angular.module('wineApp')
         }
 
         $scope.doRefresh = function(){
-        	var list = [];
         	$scope.page = 0;
         	$scope.end = false;
-        	var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * 10) + '&fetchSize=10';
+            $scope.drList = [];
+            //loadData($scope.page,10,'refresh');
+        	var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * fetchSize) + '&fetchSize='+fetchSize;
             ajax.get(ajaxUrl).then(function(response) {
             	console.log($scope.page);
-            	$scope.drList = (response.data.msg.data);
-            	Array.prototype.push.apply(list, response.data.msg.data);
-                $scope.drList = list ;
+            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
                 $scope.page = $scope.page + 1;
                 $scope.$broadcast('scroll.refreshComplete');
             });
         }
 
-        /*var loadData = function(page,fetchSize){
-        	var ajaxUrl = CONFIG.API.daren + '?offset=' + (page * 10) + '&fetchSize='+fetchSize;
+        /*var loadData = function(page,fetchSize,loadType){
+        	var ajaxUrl = CONFIG.API.daren + '?offset=' + (page * fetchSize) + '&fetchSize='+fetchSize;
             ajax.get(ajaxUrl).then(function(response) {
             	console.log(page);
-            	$scope.drList = (response.data.msg.data);
-            	Array.prototype.push.apply(list, response.data.msg.data);
-                $scope.drList = list ;
+            	//$scope.drList = (response.data.msg.data);
+            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
+                //$scope.drList = list ;
                 $scope.page = page + 1;
-                $scope.$broadcast('scroll.refreshComplete');
-            	$scope.$apply()
+                if(loadType == 'infinite' && response.data.msg.data.length == 0){
+                    $scope.end = true;
+                }
+                console.log($scope.end);
+                if(loadType != null){
+                    var loadEvent = 'scroll.'+loadType+'Complete'
+                    $scope.$broadcast(loadEvent);
+                }
             });
         }*/
+
     });

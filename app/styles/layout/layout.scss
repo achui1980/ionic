@@ -1,5 +1,7 @@
-.loader {
-  text-align: center;
-  width: 100%;
-  padding: 20px 0;
+.entry_title{
+    white-space: nowrap;
+    overflow: hidden;
+    display:block;
+    text-overflow: ellipsis;
+    width:100%;
 }

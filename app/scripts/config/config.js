@@ -33,9 +33,9 @@ angular.module('config', [])
         API: {
             URL: {
                 PROTOCOL: 'http',
-                HOST: 'localhost', //'alcoholways.com',
+                HOST: 'alcoholways.com', //'alcoholways.com',
                 PATH: 'api',
-                PORT: '8100'
+                PORT: '8080'
             },
             isMobile: false,
             PLATFORM: 'android',

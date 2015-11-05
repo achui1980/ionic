@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name Ionic.controller:MainController
+ * @name Ionic.controller:SettingsController
  * @description
- * # MainController
+ * # SettingsController
  */
 angular.module('wineApp')
-  .controller('MainController', function($scope) {
+  .controller('MyController', function($scope) {
 
     // do something with $scope
 
