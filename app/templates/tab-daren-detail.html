@@ -1,6 +1,6 @@
 <ion-view>
      <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
-     <ion-content class="padding-left">
+     <ion-content>
         <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
         </ion-refresher> 
         <!--达人头像banner-->
@@ -15,6 +15,16 @@
             </div>
 
         </div>
+        <div class="tabs-striped tabs-top has-tabs-top tabs-background-positive tabs-color-light">
+         <div class="tabs">
+           <a class="tab-item active">
+             Page 1
+           </a>
+           <a class="tab-item">
+             Page 2
+           </a>
+         </div>
+       </div>
         <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
         </ion-infinite-scroll>
     </ion-content>
