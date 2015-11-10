@@ -1,0 +1,14 @@
+<ion-view>
+    <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
+    <ion-tabs class="tabs-striped taps-top tabs-background-stable">
+        <ion-tab title="首页" ui-sref="daren-detail.main">
+            <ion-nav-view name="detail-main"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="基本信息" ui-sref="daren-detail.info">
+            <ion-nav-view name="detail-info"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="留言" ui-sref="daren-detail.comment">
+            <ion-nav-view name="detail-comment"></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>

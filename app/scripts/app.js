@@ -12,7 +12,7 @@
 
 angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', 'config'])
 
-.run(function($ionicPlatform,$rootScope,$ionicLoading ) {
+.run(function($ionicPlatform, $rootScope, $ionicLoading) {
 
     $rootScope.$on('loading:show', function() {
         $ionicLoading.show({
@@ -32,8 +32,8 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
 
 })
 
-.config(function($httpProvider, $stateProvider, $urlRouterProvider,$ionicConfigProvider) {
-   var backText = "Back2";  
+.config(function($httpProvider, $stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+    var backText = "Back2";
 
 
     $httpProvider.interceptors.push(function($rootScope) {
@@ -96,15 +96,45 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
                 }
             }
         })
-            .state('tab.daren-detail',{
-                url:'/daren/:drId',
-                views:{
-                    'tab-daren':{
-                         templateUrl: 'templates/tab-daren-detail.html',
-                         controller: 'DrdetailController'
-                    }
+        .state('daren-detail', {
+            url: '/daren-detail/:drId',
+            abstract:true,
+            templateUrl: 'templates/daren-detail-tab.html',
+            controller: 'DrdetailController',
+           /* views: {
+                'tab-daren': {
+                    templateUrl: 'templates/tab-daren-detail.html',
+                    controller: 'DrdetailController'
                 }
-            })
+            }*/
+        })
+        .state('daren-detail.main', {
+            url: '/main',
+            views: {
+                'detail-main': {
+                    templateUrl: 'templates/daren-detail-main.html',
+                    controller: 'DrdetailController'
+                }
+            }
+        })
+        .state('daren-detail.info', {
+            url: '/info',
+            views: {
+                'detail-info': {
+                    templateUrl: 'templates/daren-detail-info.html',
+                    controller: 'DrdetailController'
+                }
+            }
+        })
+        .state('daren-detail.comment', {
+            url: '/comment',
+            views: {
+                'detail-comment': {
+                    templateUrl: 'templates/daren-detail-comment.html',
+                    controller: 'DrdetailController'
+                }
+            }
+        })
         .state('tab.shop', {
             url: '/shop',
             views: {
@@ -123,12 +153,25 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
                 }
             }
         })
-        .state('tab.my', {
+        .state('my', {
             url: '/my',
+            abstract:true,
+            templateUrl: 'templates/tab-my.html',
+            controller: 'MyController'
+        })
+        .state('my.page1', {
+            url: "/page1",
             views: {
-                'tab-my': {
-                    templateUrl: 'templates/tab-my.html',
-                    controller: 'MyController'
+                'my-page1': {
+                    templateUrl: "templates/tab-my-1.html"
+                }
+            }
+        })
+        .state('my.page2', {
+            url: "/page2",
+            views: {
+                'my-page2': {
+                    templateUrl: "templates/tab-my-2.html"
                 }
             }
         });

@@ -9,6 +9,7 @@
 angular.module('wineApp')
     .controller('DrdetailController', function($window, $scope, ajax, CONFIG, $location, $stateParams, $ionicNavBarDelegate) {
         var drId = $stateParams.drId;
+        console.log('drId:'+drId);
         var ajaxUrl = CONFIG.API.drinfo + '?userId=' + drId;
         $scope.resourceURL = CONFIG.getResourceURL();
         //$scope.drBean = {};

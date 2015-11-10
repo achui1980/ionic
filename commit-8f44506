@@ -1,0 +1,2134 @@
+From 8f4450671f5e37ccd82555b8d850c477a6e96865 Mon Sep 17 00:00:00 2001
+From: unknown <portz@L260.ehi.ehealth.com>
+Date: Thu, 5 Nov 2015 18:01:06 +0800
+Subject: update
+
+
+diff --git a/app/images/arrow_1.png b/app/images/arrow_1.png
+new file mode 100644
+index 0000000..7039b7b
+Binary files /dev/null and b/app/images/arrow_1.png differ
+diff --git a/app/images/arrow_2.png b/app/images/arrow_2.png
+new file mode 100644
+index 0000000..c8ef441
+Binary files /dev/null and b/app/images/arrow_2.png differ
+diff --git a/app/images/banner.jpg b/app/images/banner.jpg
+new file mode 100644
+index 0000000..bdc8bfb
+Binary files /dev/null and b/app/images/banner.jpg differ
+diff --git a/app/images/bg-white.png b/app/images/bg-white.png
+new file mode 100644
+index 0000000..8f39eec
+Binary files /dev/null and b/app/images/bg-white.png differ
+diff --git a/app/images/bg.png b/app/images/bg.png
+new file mode 100644
+index 0000000..4389ec5
+Binary files /dev/null and b/app/images/bg.png differ
+diff --git a/app/images/bom_dr_icon.png b/app/images/bom_dr_icon.png
+new file mode 100644
+index 0000000..e0697e4
+Binary files /dev/null and b/app/images/bom_dr_icon.png differ
+diff --git a/app/images/bom_dr_icon2.png b/app/images/bom_dr_icon2.png
+new file mode 100644
+index 0000000..544a529
+Binary files /dev/null and b/app/images/bom_dr_icon2.png differ
+diff --git a/app/images/bom_drjk_icon.png b/app/images/bom_drjk_icon.png
+new file mode 100644
+index 0000000..fc77d06
+Binary files /dev/null and b/app/images/bom_drjk_icon.png differ
+diff --git a/app/images/bom_gwc_icon.png b/app/images/bom_gwc_icon.png
+new file mode 100644
+index 0000000..a885c82
+Binary files /dev/null and b/app/images/bom_gwc_icon.png differ
+diff --git a/app/images/bom_gwc_icon2.png b/app/images/bom_gwc_icon2.png
+new file mode 100644
+index 0000000..022114d
+Binary files /dev/null and b/app/images/bom_gwc_icon2.png differ
+diff --git a/app/images/bom_hj_icon.png b/app/images/bom_hj_icon.png
+new file mode 100644
+index 0000000..b74d64a
+Binary files /dev/null and b/app/images/bom_hj_icon.png differ
+diff --git a/app/images/bom_hj_icon2.png b/app/images/bom_hj_icon2.png
+new file mode 100644
+index 0000000..6482104
+Binary files /dev/null and b/app/images/bom_hj_icon2.png differ
+diff --git a/app/images/bom_home2_icon.png b/app/images/bom_home2_icon.png
+new file mode 100644
+index 0000000..b160566
+Binary files /dev/null and b/app/images/bom_home2_icon.png differ
+diff --git a/app/images/bom_home_icon.png b/app/images/bom_home_icon.png
+new file mode 100644
+index 0000000..ac076d6
+Binary files /dev/null and b/app/images/bom_home_icon.png differ
+diff --git a/app/images/bom_rqq_icon.png b/app/images/bom_rqq_icon.png
+new file mode 100644
+index 0000000..4a75b21
+Binary files /dev/null and b/app/images/bom_rqq_icon.png differ
+diff --git a/app/images/bom_wd_icon.png b/app/images/bom_wd_icon.png
+new file mode 100644
+index 0000000..a038987
+Binary files /dev/null and b/app/images/bom_wd_icon.png differ
+diff --git a/app/images/bom_wd_icon2.png b/app/images/bom_wd_icon2.png
+new file mode 100644
+index 0000000..89e5af3
+Binary files /dev/null and b/app/images/bom_wd_icon2.png differ
+diff --git a/app/images/bom_xj_icon.png b/app/images/bom_xj_icon.png
+new file mode 100644
+index 0000000..2457c93
+Binary files /dev/null and b/app/images/bom_xj_icon.png differ
+diff --git a/app/images/bombg.jpg b/app/images/bombg.jpg
+new file mode 100644
+index 0000000..4ea07bf
+Binary files /dev/null and b/app/images/bombg.jpg differ
+diff --git a/app/images/bombg.png b/app/images/bombg.png
+new file mode 100644
+index 0000000..d1e65ef
+Binary files /dev/null and b/app/images/bombg.png differ
+diff --git a/app/images/bz_icon.png b/app/images/bz_icon.png
+new file mode 100644
+index 0000000..472ca48
+Binary files /dev/null and b/app/images/bz_icon.png differ
+diff --git a/app/images/choosebutton.png b/app/images/choosebutton.png
+new file mode 100644
+index 0000000..b346831
+Binary files /dev/null and b/app/images/choosebutton.png differ
+diff --git a/app/images/ckicon.png b/app/images/ckicon.png
+new file mode 100644
+index 0000000..a4d9185
+Binary files /dev/null and b/app/images/ckicon.png differ
+diff --git a/app/images/cloes2_icon.png b/app/images/cloes2_icon.png
+new file mode 100644
+index 0000000..bd077e7
+Binary files /dev/null and b/app/images/cloes2_icon.png differ
+diff --git a/app/images/cloes_icon.png b/app/images/cloes_icon.png
+new file mode 100644
+index 0000000..86cefb2
+Binary files /dev/null and b/app/images/cloes_icon.png differ
+diff --git a/app/images/cloes_icon2.png b/app/images/cloes_icon2.png
+new file mode 100644
+index 0000000..7fa5d59
+Binary files /dev/null and b/app/images/cloes_icon2.png differ
+diff --git a/app/images/color_swatch.png b/app/images/color_swatch.png
+new file mode 100644
+index 0000000..6e6e852
+Binary files /dev/null and b/app/images/color_swatch.png differ
+diff --git a/app/images/cross.png b/app/images/cross.png
+new file mode 100644
+index 0000000..70e8d23
+Binary files /dev/null and b/app/images/cross.png differ
+diff --git a/app/images/del_icon.png b/app/images/del_icon.png
+new file mode 100644
+index 0000000..af5dd7f
+Binary files /dev/null and b/app/images/del_icon.png differ
+diff --git a/app/images/dfhicon.png b/app/images/dfhicon.png
+new file mode 100644
+index 0000000..0602b77
+Binary files /dev/null and b/app/images/dfhicon.png differ
+diff --git a/app/images/dfkicon.png b/app/images/dfkicon.png
+new file mode 100644
+index 0000000..49528fb
+Binary files /dev/null and b/app/images/dfkicon.png differ
+diff --git a/app/images/dpjicon.png b/app/images/dpjicon.png
+new file mode 100644
+index 0000000..a29f52f
+Binary files /dev/null and b/app/images/dpjicon.png differ
+diff --git a/app/images/dr1.jpg b/app/images/dr1.jpg
+index d2f7310..7b8815f 100644
+Binary files a/app/images/dr1.jpg and b/app/images/dr1.jpg differ
+diff --git a/app/images/dr2.jpg b/app/images/dr2.jpg
+new file mode 100644
+index 0000000..2431317
+Binary files /dev/null and b/app/images/dr2.jpg differ
+diff --git a/app/images/dshicon.png b/app/images/dshicon.png
+new file mode 100644
+index 0000000..0da3fee
+Binary files /dev/null and b/app/images/dshicon.png differ
+diff --git a/app/images/dx.png b/app/images/dx.png
+new file mode 100644
+index 0000000..09ea8b3
+Binary files /dev/null and b/app/images/dx.png differ
+diff --git a/app/images/dzicon.png b/app/images/dzicon.png
+new file mode 100644
+index 0000000..3aef504
+Binary files /dev/null and b/app/images/dzicon.png differ
+diff --git a/app/images/footer.jpg b/app/images/footer.jpg
+new file mode 100644
+index 0000000..172801a
+Binary files /dev/null and b/app/images/footer.jpg differ
+diff --git a/app/images/fx_icon.png b/app/images/fx_icon.png
+new file mode 100644
+index 0000000..6cd9b53
+Binary files /dev/null and b/app/images/fx_icon.png differ
+diff --git a/app/images/fxicon.png b/app/images/fxicon.png
+new file mode 100644
+index 0000000..cd35a5b
+Binary files /dev/null and b/app/images/fxicon.png differ
+diff --git a/app/images/fxicon2.png b/app/images/fxicon2.png
+new file mode 100644
+index 0000000..3c3ced3
+Binary files /dev/null and b/app/images/fxicon2.png differ
+diff --git a/app/images/gohomeicon.png b/app/images/gohomeicon.png
+new file mode 100644
+index 0000000..ece4661
+Binary files /dev/null and b/app/images/gohomeicon.png differ
+diff --git a/app/images/gz_icon.png b/app/images/gz_icon.png
+new file mode 100644
+index 0000000..613c4f6
+Binary files /dev/null and b/app/images/gz_icon.png differ
+diff --git a/app/images/home_icon.png b/app/images/home_icon.png
+new file mode 100644
+index 0000000..542a55b
+Binary files /dev/null and b/app/images/home_icon.png differ
+diff --git a/app/images/homeicon.png b/app/images/homeicon.png
+new file mode 100644
+index 0000000..109ab7d
+Binary files /dev/null and b/app/images/homeicon.png differ
+diff --git a/app/images/jia.png b/app/images/jia.png
+new file mode 100644
+index 0000000..eb74724
+Binary files /dev/null and b/app/images/jia.png differ
+diff --git a/app/images/jz1.jpg b/app/images/jz1.jpg
+new file mode 100644
+index 0000000..c79874f
+Binary files /dev/null and b/app/images/jz1.jpg differ
+diff --git a/app/images/loading.gif b/app/images/loading.gif
+new file mode 100644
+index 0000000..838ba73
+Binary files /dev/null and b/app/images/loading.gif differ
+diff --git a/app/images/lv/__MACOSX/._mr_lv1.png b/app/images/lv/__MACOSX/._mr_lv1.png
+new file mode 100644
+index 0000000..c704651
+Binary files /dev/null and b/app/images/lv/__MACOSX/._mr_lv1.png differ
+diff --git a/app/images/lv/__MACOSX/._zui_huanglv1.png b/app/images/lv/__MACOSX/._zui_huanglv1.png
+new file mode 100644
+index 0000000..b63ad85
+Binary files /dev/null and b/app/images/lv/__MACOSX/._zui_huanglv1.png differ
+diff --git a/app/images/lv/__MACOSX/._zui_luolv1.png b/app/images/lv/__MACOSX/._zui_luolv1.png
+new file mode 100644
+index 0000000..5e72340
+Binary files /dev/null and b/app/images/lv/__MACOSX/._zui_luolv1.png differ
+diff --git a/app/images/lv/__MACOSX/._zui_lvlv5.png b/app/images/lv/__MACOSX/._zui_lvlv5.png
+new file mode 100644
+index 0000000..6dd2791
+Binary files /dev/null and b/app/images/lv/__MACOSX/._zui_lvlv5.png differ
+diff --git a/app/images/lv/huang_lv1.png b/app/images/lv/huang_lv1.png
+new file mode 100644
+index 0000000..33a2647
+Binary files /dev/null and b/app/images/lv/huang_lv1.png differ
+diff --git a/app/images/lv/huang_lv2.png b/app/images/lv/huang_lv2.png
+new file mode 100644
+index 0000000..d8daf5b
+Binary files /dev/null and b/app/images/lv/huang_lv2.png differ
+diff --git a/app/images/lv/huang_lv3.png b/app/images/lv/huang_lv3.png
+new file mode 100644
+index 0000000..b7ce6b2
+Binary files /dev/null and b/app/images/lv/huang_lv3.png differ
+diff --git a/app/images/lv/huang_lv4.png b/app/images/lv/huang_lv4.png
+new file mode 100644
+index 0000000..89d35ef
+Binary files /dev/null and b/app/images/lv/huang_lv4.png differ
+diff --git a/app/images/lv/huang_lv5.png b/app/images/lv/huang_lv5.png
+new file mode 100644
+index 0000000..5116970
+Binary files /dev/null and b/app/images/lv/huang_lv5.png differ
+diff --git a/app/images/lv/jin_lv1.png b/app/images/lv/jin_lv1.png
+new file mode 100644
+index 0000000..23361ff
+Binary files /dev/null and b/app/images/lv/jin_lv1.png differ
+diff --git a/app/images/lv/jin_lv2.png b/app/images/lv/jin_lv2.png
+new file mode 100644
+index 0000000..2e767dd
+Binary files /dev/null and b/app/images/lv/jin_lv2.png differ
+diff --git a/app/images/lv/jin_lv3.png b/app/images/lv/jin_lv3.png
+new file mode 100644
+index 0000000..62ba232
+Binary files /dev/null and b/app/images/lv/jin_lv3.png differ
+diff --git a/app/images/lv/jin_lv4.png b/app/images/lv/jin_lv4.png
+new file mode 100644
+index 0000000..b748af8
+Binary files /dev/null and b/app/images/lv/jin_lv4.png differ
+diff --git a/app/images/lv/jin_lv5.png b/app/images/lv/jin_lv5.png
+new file mode 100644
+index 0000000..6e70a62
+Binary files /dev/null and b/app/images/lv/jin_lv5.png differ
+diff --git a/app/images/lv/jinshe_lv1.png b/app/images/lv/jinshe_lv1.png
+new file mode 100644
+index 0000000..40cfb37
+Binary files /dev/null and b/app/images/lv/jinshe_lv1.png differ
+diff --git a/app/images/lv/jinshe_lv2.png b/app/images/lv/jinshe_lv2.png
+new file mode 100644
+index 0000000..c13d204
+Binary files /dev/null and b/app/images/lv/jinshe_lv2.png differ
+diff --git a/app/images/lv/jinshe_lv3.png b/app/images/lv/jinshe_lv3.png
+new file mode 100644
+index 0000000..037810e
+Binary files /dev/null and b/app/images/lv/jinshe_lv3.png differ
+diff --git a/app/images/lv/jinshe_lv4.png b/app/images/lv/jinshe_lv4.png
+new file mode 100644
+index 0000000..7cd2f67
+Binary files /dev/null and b/app/images/lv/jinshe_lv4.png differ
+diff --git a/app/images/lv/jinshe_lv5.png b/app/images/lv/jinshe_lv5.png
+new file mode 100644
+index 0000000..a444092
+Binary files /dev/null and b/app/images/lv/jinshe_lv5.png differ
+diff --git a/app/images/lv/jiu_chenglv1.png b/app/images/lv/jiu_chenglv1.png
+new file mode 100644
+index 0000000..eb019fb
+Binary files /dev/null and b/app/images/lv/jiu_chenglv1.png differ
+diff --git a/app/images/lv/jiu_chenglv2.png b/app/images/lv/jiu_chenglv2.png
+new file mode 100644
+index 0000000..79e6bdc
+Binary files /dev/null and b/app/images/lv/jiu_chenglv2.png differ
+diff --git a/app/images/lv/jiu_chenglv3.png b/app/images/lv/jiu_chenglv3.png
+new file mode 100644
+index 0000000..43bba61
+Binary files /dev/null and b/app/images/lv/jiu_chenglv3.png differ
+diff --git a/app/images/lv/jiu_chenglv4.png b/app/images/lv/jiu_chenglv4.png
+new file mode 100644
+index 0000000..e11641f
+Binary files /dev/null and b/app/images/lv/jiu_chenglv4.png differ
+diff --git a/app/images/lv/jiu_chenglv5.png b/app/images/lv/jiu_chenglv5.png
+new file mode 100644
+index 0000000..0e34bd5
+Binary files /dev/null and b/app/images/lv/jiu_chenglv5.png differ
+diff --git a/app/images/lv/jiu_lanlv1.png b/app/images/lv/jiu_lanlv1.png
+new file mode 100644
+index 0000000..497da8e
+Binary files /dev/null and b/app/images/lv/jiu_lanlv1.png differ
+diff --git a/app/images/lv/jiu_lanlv2.png b/app/images/lv/jiu_lanlv2.png
+new file mode 100644
+index 0000000..036e385
+Binary files /dev/null and b/app/images/lv/jiu_lanlv2.png differ
+diff --git a/app/images/lv/jiu_lanlv3.png b/app/images/lv/jiu_lanlv3.png
+new file mode 100644
+index 0000000..8fddd68
+Binary files /dev/null and b/app/images/lv/jiu_lanlv3.png differ
+diff --git a/app/images/lv/jiu_lanlv4.png b/app/images/lv/jiu_lanlv4.png
+new file mode 100644
+index 0000000..34896dc
+Binary files /dev/null and b/app/images/lv/jiu_lanlv4.png differ
+diff --git a/app/images/lv/jiu_lanlv5.png b/app/images/lv/jiu_lanlv5.png
+new file mode 100644
+index 0000000..0f13de3
+Binary files /dev/null and b/app/images/lv/jiu_lanlv5.png differ
+diff --git a/app/images/lv/jiu_lvlv1.png b/app/images/lv/jiu_lvlv1.png
+new file mode 100644
+index 0000000..195aabf
+Binary files /dev/null and b/app/images/lv/jiu_lvlv1.png differ
+diff --git a/app/images/lv/jiu_lvlv2.png b/app/images/lv/jiu_lvlv2.png
+new file mode 100644
+index 0000000..6b7824e
+Binary files /dev/null and b/app/images/lv/jiu_lvlv2.png differ
+diff --git a/app/images/lv/jiu_lvlv3.png b/app/images/lv/jiu_lvlv3.png
+new file mode 100644
+index 0000000..e278b71
+Binary files /dev/null and b/app/images/lv/jiu_lvlv3.png differ
+diff --git a/app/images/lv/jiu_lvlv4.png b/app/images/lv/jiu_lvlv4.png
+new file mode 100644
+index 0000000..9894f66
+Binary files /dev/null and b/app/images/lv/jiu_lvlv4.png differ
+diff --git a/app/images/lv/jiu_lvlv5.png b/app/images/lv/jiu_lvlv5.png
+new file mode 100644
+index 0000000..5fc1393
+Binary files /dev/null and b/app/images/lv/jiu_lvlv5.png differ
+diff --git a/app/images/lv/jiu_mrlv1.png b/app/images/lv/jiu_mrlv1.png
+new file mode 100644
+index 0000000..19627ec
+Binary files /dev/null and b/app/images/lv/jiu_mrlv1.png differ
+diff --git a/app/images/lv/jiu_mrlv2.png b/app/images/lv/jiu_mrlv2.png
+new file mode 100644
+index 0000000..5f2018c
+Binary files /dev/null and b/app/images/lv/jiu_mrlv2.png differ
+diff --git a/app/images/lv/jiu_mrlv3.png b/app/images/lv/jiu_mrlv3.png
+new file mode 100644
+index 0000000..3ae6b08
+Binary files /dev/null and b/app/images/lv/jiu_mrlv3.png differ
+diff --git a/app/images/lv/jiu_mrlv4.png b/app/images/lv/jiu_mrlv4.png
+new file mode 100644
+index 0000000..1850b5b
+Binary files /dev/null and b/app/images/lv/jiu_mrlv4.png differ
+diff --git a/app/images/lv/jiu_mrlv5.png b/app/images/lv/jiu_mrlv5.png
+new file mode 100644
+index 0000000..9057e22
+Binary files /dev/null and b/app/images/lv/jiu_mrlv5.png differ
+diff --git a/app/images/lv/jiu_zilv1.png b/app/images/lv/jiu_zilv1.png
+new file mode 100644
+index 0000000..34b3b7a
+Binary files /dev/null and b/app/images/lv/jiu_zilv1.png differ
+diff --git a/app/images/lv/jiu_zilv2.png b/app/images/lv/jiu_zilv2.png
+new file mode 100644
+index 0000000..59c08cc
+Binary files /dev/null and b/app/images/lv/jiu_zilv2.png differ
+diff --git a/app/images/lv/jiu_zilv3.png b/app/images/lv/jiu_zilv3.png
+new file mode 100644
+index 0000000..d77fef9
+Binary files /dev/null and b/app/images/lv/jiu_zilv3.png differ
+diff --git a/app/images/lv/jiu_zilv4.png b/app/images/lv/jiu_zilv4.png
+new file mode 100644
+index 0000000..6e84689
+Binary files /dev/null and b/app/images/lv/jiu_zilv4.png differ
+diff --git a/app/images/lv/jiu_zilv5.png b/app/images/lv/jiu_zilv5.png
+new file mode 100644
+index 0000000..f980bf6
+Binary files /dev/null and b/app/images/lv/jiu_zilv5.png differ
+diff --git a/app/images/lv/lan_lv1.png b/app/images/lv/lan_lv1.png
+new file mode 100644
+index 0000000..12955fb
+Binary files /dev/null and b/app/images/lv/lan_lv1.png differ
+diff --git a/app/images/lv/lan_lv2.png b/app/images/lv/lan_lv2.png
+new file mode 100644
+index 0000000..3290f83
+Binary files /dev/null and b/app/images/lv/lan_lv2.png differ
+diff --git a/app/images/lv/lan_lv3.png b/app/images/lv/lan_lv3.png
+new file mode 100644
+index 0000000..d27588b
+Binary files /dev/null and b/app/images/lv/lan_lv3.png differ
+diff --git a/app/images/lv/lan_lv4.png b/app/images/lv/lan_lv4.png
+new file mode 100644
+index 0000000..b36de6b
+Binary files /dev/null and b/app/images/lv/lan_lv4.png differ
+diff --git a/app/images/lv/lan_lv5.png b/app/images/lv/lan_lv5.png
+new file mode 100644
+index 0000000..3a89913
+Binary files /dev/null and b/app/images/lv/lan_lv5.png differ
+diff --git a/app/images/lv/luo_lv1.png b/app/images/lv/luo_lv1.png
+new file mode 100644
+index 0000000..fad967a
+Binary files /dev/null and b/app/images/lv/luo_lv1.png differ
+diff --git a/app/images/lv/luo_lv2.png b/app/images/lv/luo_lv2.png
+new file mode 100644
+index 0000000..e6668a0
+Binary files /dev/null and b/app/images/lv/luo_lv2.png differ
+diff --git a/app/images/lv/luo_lv3.png b/app/images/lv/luo_lv3.png
+new file mode 100644
+index 0000000..f8f46c2
+Binary files /dev/null and b/app/images/lv/luo_lv3.png differ
+diff --git a/app/images/lv/luo_lv4.png b/app/images/lv/luo_lv4.png
+new file mode 100644
+index 0000000..ef5fda1
+Binary files /dev/null and b/app/images/lv/luo_lv4.png differ
+diff --git a/app/images/lv/luo_lv5.png b/app/images/lv/luo_lv5.png
+new file mode 100644
+index 0000000..4baf8c7
+Binary files /dev/null and b/app/images/lv/luo_lv5.png differ
+diff --git a/app/images/lv/lv_lv1.png b/app/images/lv/lv_lv1.png
+new file mode 100644
+index 0000000..a0de8e7
+Binary files /dev/null and b/app/images/lv/lv_lv1.png differ
+diff --git a/app/images/lv/lv_lv2.png b/app/images/lv/lv_lv2.png
+new file mode 100644
+index 0000000..e71d92e
+Binary files /dev/null and b/app/images/lv/lv_lv2.png differ
+diff --git a/app/images/lv/lv_lv3.png b/app/images/lv/lv_lv3.png
+new file mode 100644
+index 0000000..145eec5
+Binary files /dev/null and b/app/images/lv/lv_lv3.png differ
+diff --git a/app/images/lv/lv_lv4.png b/app/images/lv/lv_lv4.png
+new file mode 100644
+index 0000000..57dd1d2
+Binary files /dev/null and b/app/images/lv/lv_lv4.png differ
+diff --git a/app/images/lv/lv_lv5.png b/app/images/lv/lv_lv5.png
+new file mode 100644
+index 0000000..b12533a
+Binary files /dev/null and b/app/images/lv/lv_lv5.png differ
+diff --git a/app/images/lv/mr_lv1.png b/app/images/lv/mr_lv1.png
+new file mode 100644
+index 0000000..fc2cb70
+Binary files /dev/null and b/app/images/lv/mr_lv1.png differ
+diff --git a/app/images/lv/mr_lv2.png b/app/images/lv/mr_lv2.png
+new file mode 100644
+index 0000000..0b84e6a
+Binary files /dev/null and b/app/images/lv/mr_lv2.png differ
+diff --git a/app/images/lv/mr_lv3.png b/app/images/lv/mr_lv3.png
+new file mode 100644
+index 0000000..de93c9e
+Binary files /dev/null and b/app/images/lv/mr_lv3.png differ
+diff --git a/app/images/lv/mr_lv4.png b/app/images/lv/mr_lv4.png
+new file mode 100644
+index 0000000..c6f971d
+Binary files /dev/null and b/app/images/lv/mr_lv4.png differ
+diff --git a/app/images/lv/mr_lv5.png b/app/images/lv/mr_lv5.png
+new file mode 100644
+index 0000000..61bc856
+Binary files /dev/null and b/app/images/lv/mr_lv5.png differ
+diff --git a/app/images/lv/mrshe_lv1.png b/app/images/lv/mrshe_lv1.png
+new file mode 100644
+index 0000000..3af7311
+Binary files /dev/null and b/app/images/lv/mrshe_lv1.png differ
+diff --git a/app/images/lv/mrshe_lv2.png b/app/images/lv/mrshe_lv2.png
+new file mode 100644
+index 0000000..43418b9
+Binary files /dev/null and b/app/images/lv/mrshe_lv2.png differ
+diff --git a/app/images/lv/mrshe_lv3.png b/app/images/lv/mrshe_lv3.png
+new file mode 100644
+index 0000000..85cb47d
+Binary files /dev/null and b/app/images/lv/mrshe_lv3.png differ
+diff --git a/app/images/lv/mrshe_lv4.png b/app/images/lv/mrshe_lv4.png
+new file mode 100644
+index 0000000..8d00021
+Binary files /dev/null and b/app/images/lv/mrshe_lv4.png differ
+diff --git a/app/images/lv/mrshe_lv5.png b/app/images/lv/mrshe_lv5.png
+new file mode 100644
+index 0000000..1c19bed
+Binary files /dev/null and b/app/images/lv/mrshe_lv5.png differ
+diff --git a/app/images/lv/tong_lv1.png b/app/images/lv/tong_lv1.png
+new file mode 100644
+index 0000000..dbfef3a
+Binary files /dev/null and b/app/images/lv/tong_lv1.png differ
+diff --git a/app/images/lv/tong_lv2.png b/app/images/lv/tong_lv2.png
+new file mode 100644
+index 0000000..d2c8e63
+Binary files /dev/null and b/app/images/lv/tong_lv2.png differ
+diff --git a/app/images/lv/tong_lv3.png b/app/images/lv/tong_lv3.png
+new file mode 100644
+index 0000000..bda2ff9
+Binary files /dev/null and b/app/images/lv/tong_lv3.png differ
+diff --git a/app/images/lv/tong_lv4.png b/app/images/lv/tong_lv4.png
+new file mode 100644
+index 0000000..36cee04
+Binary files /dev/null and b/app/images/lv/tong_lv4.png differ
+diff --git a/app/images/lv/tong_lv5.png b/app/images/lv/tong_lv5.png
+new file mode 100644
+index 0000000..bb030c2
+Binary files /dev/null and b/app/images/lv/tong_lv5.png differ
+diff --git a/app/images/lv/tongshe_lv1.png b/app/images/lv/tongshe_lv1.png
+new file mode 100644
+index 0000000..43ab32b
+Binary files /dev/null and b/app/images/lv/tongshe_lv1.png differ
+diff --git a/app/images/lv/tongshe_lv2.png b/app/images/lv/tongshe_lv2.png
+new file mode 100644
+index 0000000..69e31ca
+Binary files /dev/null and b/app/images/lv/tongshe_lv2.png differ
+diff --git a/app/images/lv/tongshe_lv3.png b/app/images/lv/tongshe_lv3.png
+new file mode 100644
+index 0000000..7d62872
+Binary files /dev/null and b/app/images/lv/tongshe_lv3.png differ
+diff --git a/app/images/lv/tongshe_lv4.png b/app/images/lv/tongshe_lv4.png
+new file mode 100644
+index 0000000..88227fe
+Binary files /dev/null and b/app/images/lv/tongshe_lv4.png differ
+diff --git a/app/images/lv/tongshe_lv5.png b/app/images/lv/tongshe_lv5.png
+new file mode 100644
+index 0000000..0644b03
+Binary files /dev/null and b/app/images/lv/tongshe_lv5.png differ
+diff --git a/app/images/lv/yin_lv1.png b/app/images/lv/yin_lv1.png
+new file mode 100644
+index 0000000..6522a33
+Binary files /dev/null and b/app/images/lv/yin_lv1.png differ
+diff --git a/app/images/lv/yin_lv2.png b/app/images/lv/yin_lv2.png
+new file mode 100644
+index 0000000..461653d
+Binary files /dev/null and b/app/images/lv/yin_lv2.png differ
+diff --git a/app/images/lv/yin_lv3.png b/app/images/lv/yin_lv3.png
+new file mode 100644
+index 0000000..2763000
+Binary files /dev/null and b/app/images/lv/yin_lv3.png differ
+diff --git a/app/images/lv/yin_lv4.png b/app/images/lv/yin_lv4.png
+new file mode 100644
+index 0000000..192f327
+Binary files /dev/null and b/app/images/lv/yin_lv4.png differ
+diff --git a/app/images/lv/yin_lv5.png b/app/images/lv/yin_lv5.png
+new file mode 100644
+index 0000000..cb458be
+Binary files /dev/null and b/app/images/lv/yin_lv5.png differ
+diff --git a/app/images/lv/yinshe_lv1.png b/app/images/lv/yinshe_lv1.png
+new file mode 100644
+index 0000000..8a3dbda
+Binary files /dev/null and b/app/images/lv/yinshe_lv1.png differ
+diff --git a/app/images/lv/yinshe_lv2.png b/app/images/lv/yinshe_lv2.png
+new file mode 100644
+index 0000000..8d7016b
+Binary files /dev/null and b/app/images/lv/yinshe_lv2.png differ
+diff --git a/app/images/lv/yinshe_lv3.png b/app/images/lv/yinshe_lv3.png
+new file mode 100644
+index 0000000..e66c653
+Binary files /dev/null and b/app/images/lv/yinshe_lv3.png differ
+diff --git a/app/images/lv/yinshe_lv4.png b/app/images/lv/yinshe_lv4.png
+new file mode 100644
+index 0000000..e3e8884
+Binary files /dev/null and b/app/images/lv/yinshe_lv4.png differ
+diff --git a/app/images/lv/yinshe_lv5.png b/app/images/lv/yinshe_lv5.png
+new file mode 100644
+index 0000000..4efccd9
+Binary files /dev/null and b/app/images/lv/yinshe_lv5.png differ
+diff --git a/app/images/lv/zi_lv1.png b/app/images/lv/zi_lv1.png
+new file mode 100644
+index 0000000..8e8a127
+Binary files /dev/null and b/app/images/lv/zi_lv1.png differ
+diff --git a/app/images/lv/zi_lv2.png b/app/images/lv/zi_lv2.png
+new file mode 100644
+index 0000000..7eac68e
+Binary files /dev/null and b/app/images/lv/zi_lv2.png differ
+diff --git a/app/images/lv/zi_lv3.png b/app/images/lv/zi_lv3.png
+new file mode 100644
+index 0000000..2ba3627
+Binary files /dev/null and b/app/images/lv/zi_lv3.png differ
+diff --git a/app/images/lv/zi_lv4.png b/app/images/lv/zi_lv4.png
+new file mode 100644
+index 0000000..6b12bce
+Binary files /dev/null and b/app/images/lv/zi_lv4.png differ
+diff --git a/app/images/lv/zi_lv5.png b/app/images/lv/zi_lv5.png
+new file mode 100644
+index 0000000..35591df
+Binary files /dev/null and b/app/images/lv/zi_lv5.png differ
+diff --git a/app/images/lv/zui_huanglv1.png b/app/images/lv/zui_huanglv1.png
+new file mode 100644
+index 0000000..33a2647
+Binary files /dev/null and b/app/images/lv/zui_huanglv1.png differ
+diff --git a/app/images/lv/zui_huanglv2.png b/app/images/lv/zui_huanglv2.png
+new file mode 100644
+index 0000000..d8daf5b
+Binary files /dev/null and b/app/images/lv/zui_huanglv2.png differ
+diff --git a/app/images/lv/zui_huanglv3.png b/app/images/lv/zui_huanglv3.png
+new file mode 100644
+index 0000000..b7ce6b2
+Binary files /dev/null and b/app/images/lv/zui_huanglv3.png differ
+diff --git a/app/images/lv/zui_huanglv4.png b/app/images/lv/zui_huanglv4.png
+new file mode 100644
+index 0000000..89d35ef
+Binary files /dev/null and b/app/images/lv/zui_huanglv4.png differ
+diff --git a/app/images/lv/zui_huanglv5.png b/app/images/lv/zui_huanglv5.png
+new file mode 100644
+index 0000000..5116970
+Binary files /dev/null and b/app/images/lv/zui_huanglv5.png differ
+diff --git a/app/images/lv/zui_lanlv1.png b/app/images/lv/zui_lanlv1.png
+new file mode 100644
+index 0000000..12955fb
+Binary files /dev/null and b/app/images/lv/zui_lanlv1.png differ
+diff --git a/app/images/lv/zui_lanlv2.png b/app/images/lv/zui_lanlv2.png
+new file mode 100644
+index 0000000..3290f83
+Binary files /dev/null and b/app/images/lv/zui_lanlv2.png differ
+diff --git a/app/images/lv/zui_lanlv3.png b/app/images/lv/zui_lanlv3.png
+new file mode 100644
+index 0000000..d27588b
+Binary files /dev/null and b/app/images/lv/zui_lanlv3.png differ
+diff --git a/app/images/lv/zui_lanlv4.png b/app/images/lv/zui_lanlv4.png
+new file mode 100644
+index 0000000..b36de6b
+Binary files /dev/null and b/app/images/lv/zui_lanlv4.png differ
+diff --git a/app/images/lv/zui_lanlv5.png b/app/images/lv/zui_lanlv5.png
+new file mode 100644
+index 0000000..3a89913
+Binary files /dev/null and b/app/images/lv/zui_lanlv5.png differ
+diff --git a/app/images/lv/zui_luolv1.png b/app/images/lv/zui_luolv1.png
+new file mode 100644
+index 0000000..fad967a
+Binary files /dev/null and b/app/images/lv/zui_luolv1.png differ
+diff --git a/app/images/lv/zui_luolv2.png b/app/images/lv/zui_luolv2.png
+new file mode 100644
+index 0000000..e6668a0
+Binary files /dev/null and b/app/images/lv/zui_luolv2.png differ
+diff --git a/app/images/lv/zui_luolv3.png b/app/images/lv/zui_luolv3.png
+new file mode 100644
+index 0000000..f8f46c2
+Binary files /dev/null and b/app/images/lv/zui_luolv3.png differ
+diff --git a/app/images/lv/zui_luolv4.png b/app/images/lv/zui_luolv4.png
+new file mode 100644
+index 0000000..ef5fda1
+Binary files /dev/null and b/app/images/lv/zui_luolv4.png differ
+diff --git a/app/images/lv/zui_luolv5.png b/app/images/lv/zui_luolv5.png
+new file mode 100644
+index 0000000..4baf8c7
+Binary files /dev/null and b/app/images/lv/zui_luolv5.png differ
+diff --git a/app/images/lv/zui_lvlv1.png b/app/images/lv/zui_lvlv1.png
+new file mode 100644
+index 0000000..a0de8e7
+Binary files /dev/null and b/app/images/lv/zui_lvlv1.png differ
+diff --git a/app/images/lv/zui_lvlv2.png b/app/images/lv/zui_lvlv2.png
+new file mode 100644
+index 0000000..e71d92e
+Binary files /dev/null and b/app/images/lv/zui_lvlv2.png differ
+diff --git a/app/images/lv/zui_lvlv3.png b/app/images/lv/zui_lvlv3.png
+new file mode 100644
+index 0000000..145eec5
+Binary files /dev/null and b/app/images/lv/zui_lvlv3.png differ
+diff --git a/app/images/lv/zui_lvlv4.png b/app/images/lv/zui_lvlv4.png
+new file mode 100644
+index 0000000..57dd1d2
+Binary files /dev/null and b/app/images/lv/zui_lvlv4.png differ
+diff --git a/app/images/lv/zui_lvlv5.png b/app/images/lv/zui_lvlv5.png
+new file mode 100644
+index 0000000..b12533a
+Binary files /dev/null and b/app/images/lv/zui_lvlv5.png differ
+diff --git a/app/images/lv/zui_zilv1.png b/app/images/lv/zui_zilv1.png
+new file mode 100644
+index 0000000..8e8a127
+Binary files /dev/null and b/app/images/lv/zui_zilv1.png differ
+diff --git a/app/images/lv/zui_zilv2.png b/app/images/lv/zui_zilv2.png
+new file mode 100644
+index 0000000..7eac68e
+Binary files /dev/null and b/app/images/lv/zui_zilv2.png differ
+diff --git a/app/images/lv/zui_zilv3.png b/app/images/lv/zui_zilv3.png
+new file mode 100644
+index 0000000..2ba3627
+Binary files /dev/null and b/app/images/lv/zui_zilv3.png differ
+diff --git a/app/images/lv/zui_zilv4.png b/app/images/lv/zui_zilv4.png
+new file mode 100644
+index 0000000..6b12bce
+Binary files /dev/null and b/app/images/lv/zui_zilv4.png differ
+diff --git a/app/images/lv/zui_zilv5.png b/app/images/lv/zui_zilv5.png
+new file mode 100644
+index 0000000..35591df
+Binary files /dev/null and b/app/images/lv/zui_zilv5.png differ
+diff --git a/app/images/moreblack/button.png b/app/images/moreblack/button.png
+new file mode 100644
+index 0000000..f55719a
+Binary files /dev/null and b/app/images/moreblack/button.png differ
+diff --git a/app/images/my_r_icon.png b/app/images/my_r_icon.png
+new file mode 100644
+index 0000000..6a6b2cc
+Binary files /dev/null and b/app/images/my_r_icon.png differ
+diff --git a/app/images/myicon.png b/app/images/myicon.png
+new file mode 100644
+index 0000000..0b5c74b
+Binary files /dev/null and b/app/images/myicon.png differ
+diff --git a/app/images/myicon1.png b/app/images/myicon1.png
+new file mode 100644
+index 0000000..ccca0ff
+Binary files /dev/null and b/app/images/myicon1.png differ
+diff --git a/app/images/myicon10.png b/app/images/myicon10.png
+new file mode 100644
+index 0000000..ed76e4e
+Binary files /dev/null and b/app/images/myicon10.png differ
+diff --git a/app/images/myicon11.png b/app/images/myicon11.png
+new file mode 100644
+index 0000000..642b79a
+Binary files /dev/null and b/app/images/myicon11.png differ
+diff --git a/app/images/myicon2.png b/app/images/myicon2.png
+new file mode 100644
+index 0000000..f115048
+Binary files /dev/null and b/app/images/myicon2.png differ
+diff --git a/app/images/myicon3.png b/app/images/myicon3.png
+new file mode 100644
+index 0000000..3faee4d
+Binary files /dev/null and b/app/images/myicon3.png differ
+diff --git a/app/images/myicon4.png b/app/images/myicon4.png
+new file mode 100644
+index 0000000..5d022ab
+Binary files /dev/null and b/app/images/myicon4.png differ
+diff --git a/app/images/myicon5.png b/app/images/myicon5.png
+new file mode 100644
+index 0000000..096c0ec
+Binary files /dev/null and b/app/images/myicon5.png differ
+diff --git a/app/images/myicon6.png b/app/images/myicon6.png
+new file mode 100644
+index 0000000..b369f3d
+Binary files /dev/null and b/app/images/myicon6.png differ
+diff --git a/app/images/myicon7.png b/app/images/myicon7.png
+new file mode 100644
+index 0000000..83d40a5
+Binary files /dev/null and b/app/images/myicon7.png differ
+diff --git a/app/images/myicon8.png b/app/images/myicon8.png
+new file mode 100644
+index 0000000..ab8a215
+Binary files /dev/null and b/app/images/myicon8.png differ
+diff --git a/app/images/myicon9.png b/app/images/myicon9.png
+new file mode 100644
+index 0000000..f6b3430
+Binary files /dev/null and b/app/images/myicon9.png differ
+diff --git a/app/images/nan_icon.png b/app/images/nan_icon.png
+new file mode 100644
+index 0000000..92afeed
+Binary files /dev/null and b/app/images/nan_icon.png differ
+diff --git a/app/images/nv_icon.png b/app/images/nv_icon.png
+new file mode 100644
+index 0000000..48e292b
+Binary files /dev/null and b/app/images/nv_icon.png differ
+diff --git a/app/images/order_jindu_icon01.png b/app/images/order_jindu_icon01.png
+new file mode 100644
+index 0000000..6f18e50
+Binary files /dev/null and b/app/images/order_jindu_icon01.png differ
+diff --git a/app/images/order_jindu_icon02.png b/app/images/order_jindu_icon02.png
+new file mode 100644
+index 0000000..206f9d2
+Binary files /dev/null and b/app/images/order_jindu_icon02.png differ
+diff --git a/app/images/order_jindu_icon03.png b/app/images/order_jindu_icon03.png
+new file mode 100644
+index 0000000..116f645
+Binary files /dev/null and b/app/images/order_jindu_icon03.png differ
+diff --git a/app/images/order_jindu_icon04.png b/app/images/order_jindu_icon04.png
+new file mode 100644
+index 0000000..11ae18a
+Binary files /dev/null and b/app/images/order_jindu_icon04.png differ
+diff --git a/app/images/order_jindu_icon1.png b/app/images/order_jindu_icon1.png
+new file mode 100644
+index 0000000..db0d11c
+Binary files /dev/null and b/app/images/order_jindu_icon1.png differ
+diff --git a/app/images/order_jindu_icon2.png b/app/images/order_jindu_icon2.png
+new file mode 100644
+index 0000000..b0b65f1
+Binary files /dev/null and b/app/images/order_jindu_icon2.png differ
+diff --git a/app/images/order_jindu_icon3.png b/app/images/order_jindu_icon3.png
+new file mode 100644
+index 0000000..143bd9c
+Binary files /dev/null and b/app/images/order_jindu_icon3.png differ
+diff --git a/app/images/order_jindu_icon4.png b/app/images/order_jindu_icon4.png
+new file mode 100644
+index 0000000..657b0a6
+Binary files /dev/null and b/app/images/order_jindu_icon4.png differ
+diff --git a/app/images/plicon.png b/app/images/plicon.png
+new file mode 100644
+index 0000000..d884038
+Binary files /dev/null and b/app/images/plicon.png differ
+diff --git a/app/images/pyq.png b/app/images/pyq.png
+new file mode 100644
+index 0000000..913d3d4
+Binary files /dev/null and b/app/images/pyq.png differ
+diff --git a/app/images/qqkj.png b/app/images/qqkj.png
+new file mode 100644
+index 0000000..d46b032
+Binary files /dev/null and b/app/images/qqkj.png differ
+diff --git a/app/images/r_more_icon.png b/app/images/r_more_icon.png
+new file mode 100644
+index 0000000..b01f4d8
+Binary files /dev/null and b/app/images/r_more_icon.png differ
+diff --git a/app/images/r_searchicon.png b/app/images/r_searchicon.png
+new file mode 100644
+index 0000000..3de00f8
+Binary files /dev/null and b/app/images/r_searchicon.png differ
+diff --git a/app/images/r_searchicon2.png b/app/images/r_searchicon2.png
+new file mode 100644
+index 0000000..e64d81c
+Binary files /dev/null and b/app/images/r_searchicon2.png differ
+diff --git a/app/images/r_topicon.png b/app/images/r_topicon.png
+new file mode 100644
+index 0000000..e3ad684
+Binary files /dev/null and b/app/images/r_topicon.png differ
+diff --git a/app/images/r_topicon2.png b/app/images/r_topicon2.png
+new file mode 100644
+index 0000000..eb34cd5
+Binary files /dev/null and b/app/images/r_topicon2.png differ
+diff --git a/app/images/sc_icon.png b/app/images/sc_icon.png
+new file mode 100644
+index 0000000..4d4a75c
+Binary files /dev/null and b/app/images/sc_icon.png differ
+diff --git a/app/images/scicon.png b/app/images/scicon.png
+new file mode 100644
+index 0000000..381be57
+Binary files /dev/null and b/app/images/scicon.png differ
+diff --git a/app/images/search.jpg b/app/images/search.jpg
+new file mode 100644
+index 0000000..8e47167
+Binary files /dev/null and b/app/images/search.jpg differ
+diff --git a/app/images/search.png b/app/images/search.png
+new file mode 100644
+index 0000000..3dbad7f
+Binary files /dev/null and b/app/images/search.png differ
+diff --git a/app/images/service.png b/app/images/service.png
+new file mode 100644
+index 0000000..d29e127
+Binary files /dev/null and b/app/images/service.png differ
+diff --git a/app/images/shopicon.png b/app/images/shopicon.png
+new file mode 100644
+index 0000000..50898ab
+Binary files /dev/null and b/app/images/shopicon.png differ
+diff --git a/app/images/sxicon.png b/app/images/sxicon.png
+new file mode 100644
+index 0000000..799860d
+Binary files /dev/null and b/app/images/sxicon.png differ
+diff --git a/app/images/tell.png b/app/images/tell.png
+new file mode 100644
+index 0000000..306aa19
+Binary files /dev/null and b/app/images/tell.png differ
+diff --git a/app/images/temp/banner.jpg b/app/images/temp/banner.jpg
+new file mode 100644
+index 0000000..20aa367
+Binary files /dev/null and b/app/images/temp/banner.jpg differ
+diff --git a/app/images/temp/dr1.jpg b/app/images/temp/dr1.jpg
+new file mode 100644
+index 0000000..d2f7310
+Binary files /dev/null and b/app/images/temp/dr1.jpg differ
+diff --git a/app/images/temp/dr2.jpg b/app/images/temp/dr2.jpg
+new file mode 100644
+index 0000000..a677fdc
+Binary files /dev/null and b/app/images/temp/dr2.jpg differ
+diff --git a/app/images/temp/dr_banner.jpg b/app/images/temp/dr_banner.jpg
+new file mode 100644
+index 0000000..0186284
+Binary files /dev/null and b/app/images/temp/dr_banner.jpg differ
+diff --git a/app/images/temp/ewm_img.jpg b/app/images/temp/ewm_img.jpg
+new file mode 100644
+index 0000000..41148e9
+Binary files /dev/null and b/app/images/temp/ewm_img.jpg differ
+diff --git a/app/images/temp/hj.jpg b/app/images/temp/hj.jpg
+new file mode 100644
+index 0000000..50422cd
+Binary files /dev/null and b/app/images/temp/hj.jpg differ
+diff --git a/app/images/temp/jiu.jpg b/app/images/temp/jiu.jpg
+new file mode 100644
+index 0000000..80f9332
+Binary files /dev/null and b/app/images/temp/jiu.jpg differ
+diff --git a/app/images/temp/jiuzhuang.jpg b/app/images/temp/jiuzhuang.jpg
+new file mode 100644
+index 0000000..1cce943
+Binary files /dev/null and b/app/images/temp/jiuzhuang.jpg differ
+diff --git a/app/images/temp/jz1.jpg b/app/images/temp/jz1.jpg
+new file mode 100644
+index 0000000..fa54560
+Binary files /dev/null and b/app/images/temp/jz1.jpg differ
+diff --git a/app/images/temp/jz2.jpg b/app/images/temp/jz2.jpg
+new file mode 100644
+index 0000000..9d1831d
+Binary files /dev/null and b/app/images/temp/jz2.jpg differ
+diff --git a/app/images/temp/jz_banner.jpg b/app/images/temp/jz_banner.jpg
+new file mode 100644
+index 0000000..427070b
+Binary files /dev/null and b/app/images/temp/jz_banner.jpg differ
+diff --git a/app/images/temp/jzbg.jpg b/app/images/temp/jzbg.jpg
+new file mode 100644
+index 0000000..71a107f
+Binary files /dev/null and b/app/images/temp/jzbg.jpg differ
+diff --git a/app/images/temp/jzdyr.jpg b/app/images/temp/jzdyr.jpg
+new file mode 100644
+index 0000000..2a8a622
+Binary files /dev/null and b/app/images/temp/jzdyr.jpg differ
+diff --git a/app/images/temp/jzlogo.jpg b/app/images/temp/jzlogo.jpg
+new file mode 100644
+index 0000000..3288463
+Binary files /dev/null and b/app/images/temp/jzlogo.jpg differ
+diff --git a/app/images/temp/mybg.jpg b/app/images/temp/mybg.jpg
+new file mode 100644
+index 0000000..f27d4b8
+Binary files /dev/null and b/app/images/temp/mybg.jpg differ
+diff --git a/app/images/temp/mytuijian.jpg b/app/images/temp/mytuijian.jpg
+new file mode 100644
+index 0000000..7ca8a2b
+Binary files /dev/null and b/app/images/temp/mytuijian.jpg differ
+diff --git a/app/images/temp/mytx.jpg b/app/images/temp/mytx.jpg
+new file mode 100644
+index 0000000..e41409e
+Binary files /dev/null and b/app/images/temp/mytx.jpg differ
+diff --git a/app/images/temp/picture.jpg b/app/images/temp/picture.jpg
+new file mode 100644
+index 0000000..e4e7c48
+Binary files /dev/null and b/app/images/temp/picture.jpg differ
+diff --git a/app/images/temp/tjtu.jpg b/app/images/temp/tjtu.jpg
+new file mode 100644
+index 0000000..3430caa
+Binary files /dev/null and b/app/images/temp/tjtu.jpg differ
+diff --git a/app/images/temp/zui_lanlv1.png b/app/images/temp/zui_lanlv1.png
+new file mode 100644
+index 0000000..12955fb
+Binary files /dev/null and b/app/images/temp/zui_lanlv1.png differ
+diff --git a/app/images/title1.jpg b/app/images/title1.jpg
+new file mode 100644
+index 0000000..ffe8c9b
+Binary files /dev/null and b/app/images/title1.jpg differ
+diff --git a/app/images/top.jpg b/app/images/top.jpg
+new file mode 100644
+index 0000000..ade1e86
+Binary files /dev/null and b/app/images/top.jpg differ
+diff --git a/app/images/topbg.jpg b/app/images/topbg.jpg
+new file mode 100644
+index 0000000..52af482
+Binary files /dev/null and b/app/images/topbg.jpg differ
+diff --git a/app/images/topright_icon.png b/app/images/topright_icon.png
+new file mode 100644
+index 0000000..d69d920
+Binary files /dev/null and b/app/images/topright_icon.png differ
+diff --git a/app/images/txwb.png b/app/images/txwb.png
+new file mode 100644
+index 0000000..db1588d
+Binary files /dev/null and b/app/images/txwb.png differ
+diff --git a/app/images/weixin.png b/app/images/weixin.png
+new file mode 100644
+index 0000000..b7824ff
+Binary files /dev/null and b/app/images/weixin.png differ
+diff --git a/app/images/xialajt.png b/app/images/xialajt.png
+new file mode 100644
+index 0000000..27d2cb1
+Binary files /dev/null and b/app/images/xialajt.png differ
+diff --git a/app/images/xihuanicon.png b/app/images/xihuanicon.png
+new file mode 100644
+index 0000000..4a7b39a
+Binary files /dev/null and b/app/images/xihuanicon.png differ
+diff --git a/app/images/xinicon.png b/app/images/xinicon.png
+new file mode 100644
+index 0000000..014ac3b
+Binary files /dev/null and b/app/images/xinicon.png differ
+diff --git a/app/images/xj_icon.png b/app/images/xj_icon.png
+new file mode 100644
+index 0000000..1ccf34e
+Binary files /dev/null and b/app/images/xj_icon.png differ
+diff --git a/app/images/xlwb.png b/app/images/xlwb.png
+new file mode 100644
+index 0000000..6cb2c09
+Binary files /dev/null and b/app/images/xlwb.png differ
+diff --git a/app/images/xxicon.png b/app/images/xxicon.png
+new file mode 100644
+index 0000000..ae85f81
+Binary files /dev/null and b/app/images/xxicon.png differ
+diff --git a/app/images/yuan_icon.png b/app/images/yuan_icon.png
+new file mode 100644
+index 0000000..38092d0
+Binary files /dev/null and b/app/images/yuan_icon.png differ
+diff --git a/app/images/zanicon.png b/app/images/zanicon.png
+new file mode 100644
+index 0000000..eadd832
+Binary files /dev/null and b/app/images/zanicon.png differ
+diff --git a/app/scripts/app.js b/app/scripts/app.js
+index 3eaa5b4..d969bde 100644
+--- a/app/scripts/app.js
++++ b/app/scripts/app.js
+@@ -12,7 +12,17 @@
+ 
+ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', 'config'])
+ 
+-.run(function($ionicPlatform) {
++.run(function($ionicPlatform,$rootScope,$ionicLoading ) {
++
++    $rootScope.$on('loading:show', function() {
++        $ionicLoading.show({
++            template: '<ion-spinner></ion-spinner>'
++        })
++    });
++
++    $rootScope.$on('loading:hide', function() {
++        $ionicLoading.hide()
++    });
+ 
+     $ionicPlatform.ready(function() {
+         // save to use plugins here
+@@ -22,7 +32,41 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
+ 
+ })
+ 
+-.config(function($httpProvider, $stateProvider, $urlRouterProvider) {
++.config(function($httpProvider, $stateProvider, $urlRouterProvider,$ionicConfigProvider) {
++   var backText = "Back2";  
++
++
++    $httpProvider.interceptors.push(function($rootScope) {
++        return {
++            request: function(config) {
++                console.log('sending request ... ...');
++                $rootScope.$broadcast('loading:show');
++                return config
++            },
++            response: function(response) {
++                console.log('receive response ... ...');
++                $rootScope.$broadcast('loading:hide');
++                return response
++            }
++        }
++    })
++    $ionicConfigProvider.platform.ios.tabs.style('standard');
++    $ionicConfigProvider.platform.ios.tabs.position('bottom');
++    $ionicConfigProvider.platform.android.tabs.style('standard');
++    $ionicConfigProvider.platform.android.tabs.position('bottom');
++    $ionicConfigProvider.backButton.previousTitleText(false).text('').icon('ion-ios-arrow-back');
++    $ionicConfigProvider.platform.ios.navBar.alignTitle('center');
++    $ionicConfigProvider.platform.android.navBar.alignTitle('center');
++
++    // $ionicConfigProvider.platform.ios.backButton.text('').previousTitleText(false).icon('ion-chevron-left');
++    // $ionicConfigProvider.platform.android.backButton.text('').previousTitleText(false).icon('ion-android-arrow-back');
++
++    //$ionicConfigProvider.platform.ios.backButton.text('2222').icon('ion-chevron-left');
++
++    $ionicConfigProvider.platform.ios.views.transition('ios');
++    $ionicConfigProvider.platform.android.views.transition('android');
++    //$ionicConfigProvider.backButton.text('Go Back').icon('ion-chevron-left');
++
+     // register $http interceptors, if any. e.g.
+     // $httpProvider.interceptors.push('interceptor-name');
+ 
+@@ -36,10 +80,9 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
+         })
+         .state('tab.home', {
+             url: '/home',
+-            cache: true,
+             views: {
+-                'viewContent': {
+-                    templateUrl: 'templates/views/home.html',
++                'tab-home': {
++                    templateUrl: 'templates/tab-home.html',
+                     controller: 'HomeController'
+                 }
+             }
+@@ -52,6 +95,42 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
+                     controller: 'DrController'
+                 }
+             }
++        })
++            .state('tab.daren-detail',{
++                url:'/daren/:drId',
++                views:{
++                    'tab-daren':{
++                         templateUrl: 'templates/tab-daren-detail.html',
++                         controller: 'DrdetailController'
++                    }
++                }
++            })
++        .state('tab.shop', {
++            url: '/shop',
++            views: {
++                'tab-shop': {
++                    templateUrl: 'templates/tab-shop.html',
++                    controller: 'ShopController'
++                }
++            }
++        })
++        .state('tab.wine', {
++            url: '/wine',
++            views: {
++                'tab-wine': {
++                    templateUrl: 'templates/tab-wine.html',
++                    controller: 'WineController'
++                }
++            }
++        })
++        .state('tab.my', {
++            url: '/my',
++            views: {
++                'tab-my': {
++                    templateUrl: 'templates/tab-my.html',
++                    controller: 'MyController'
++                }
++            }
+         });
+ 
+ 
+diff --git a/app/scripts/config/config.js b/app/scripts/config/config.js
+index 819d98b..3492f31 100644
+--- a/app/scripts/config/config.js
++++ b/app/scripts/config/config.js
+@@ -33,9 +33,9 @@ angular.module('config', [])
+         API: {
+             URL: {
+                 PROTOCOL: 'http',
+-                HOST: 'localhost', //'alcoholways.com',
++                HOST: 'alcoholways.com', //'alcoholways.com',
+                 PATH: 'api',
+-                PORT: '8100'
++                PORT: '8080'
+             },
+             isMobile: false,
+             PLATFORM: 'android',
+diff --git a/app/scripts/controllers/drController.js b/app/scripts/controllers/drController.js
+index 9ef56a0..1b07168 100644
+--- a/app/scripts/controllers/drController.js
++++ b/app/scripts/controllers/drController.js
+@@ -9,19 +9,17 @@
+ angular.module('wineApp')
+     .controller('DrController', function($window, $scope, ajax, CONFIG) {
+         $scope.page = 0;
++        var fetchSize = 10;
+         $scope.end = false;
+-        //var ajaxUrl = CONFIG.API.daren + '?offset=0&fetchSize=6';
+         $scope.resourceURL = CONFIG.getResourceURL();
+         console.log(CONFIG.getResourceURL())
+         $scope.imgWidth = ($window.innerWidth) * 0.46;
+-        var list = [];
++        $scope.drList = [];
+         $scope.loadMoreItems = function() {
+-            var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * 10) + '&fetchSize=10';
++            var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * fetchSize) + '&fetchSize='+fetchSize;
+             ajax.get(ajaxUrl).then(function(response) {
+             	console.log($scope.page);
+-            	//$scope.drList = (response.data.msg.data);
+-            	Array.prototype.push.apply(list, response.data.msg.data);
+-                $scope.drList = list ;
++            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
+                 $scope.page = $scope.page + 1;
+                 if(response.data.msg.data.length == 0) $scope.end = true;
+                 $scope.$broadcast('scroll.infiniteScrollComplete');
+@@ -29,30 +27,36 @@ angular.module('wineApp')
+         }
+ 
+         $scope.doRefresh = function(){
+-        	var list = [];
+         	$scope.page = 0;
+         	$scope.end = false;
+-        	var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * 10) + '&fetchSize=10';
++            $scope.drList = [];
++            //loadData($scope.page,10,'refresh');
++        	var ajaxUrl = CONFIG.API.daren + '?offset=' + ($scope.page * fetchSize) + '&fetchSize='+fetchSize;
+             ajax.get(ajaxUrl).then(function(response) {
+             	console.log($scope.page);
+-            	$scope.drList = (response.data.msg.data);
+-            	Array.prototype.push.apply(list, response.data.msg.data);
+-                $scope.drList = list ;
++            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
+                 $scope.page = $scope.page + 1;
+                 $scope.$broadcast('scroll.refreshComplete');
+             });
+         }
+ 
+-        /*var loadData = function(page,fetchSize){
+-        	var ajaxUrl = CONFIG.API.daren + '?offset=' + (page * 10) + '&fetchSize='+fetchSize;
++        /*var loadData = function(page,fetchSize,loadType){
++        	var ajaxUrl = CONFIG.API.daren + '?offset=' + (page * fetchSize) + '&fetchSize='+fetchSize;
+             ajax.get(ajaxUrl).then(function(response) {
+             	console.log(page);
+-            	$scope.drList = (response.data.msg.data);
+-            	Array.prototype.push.apply(list, response.data.msg.data);
+-                $scope.drList = list ;
++            	//$scope.drList = (response.data.msg.data);
++            	Array.prototype.push.apply($scope.drList, response.data.msg.data);
++                //$scope.drList = list ;
+                 $scope.page = page + 1;
+-                $scope.$broadcast('scroll.refreshComplete');
+-            	$scope.$apply()
++                if(loadType == 'infinite' && response.data.msg.data.length == 0){
++                    $scope.end = true;
++                }
++                console.log($scope.end);
++                if(loadType != null){
++                    var loadEvent = 'scroll.'+loadType+'Complete'
++                    $scope.$broadcast(loadEvent);
++                }
+             });
+         }*/
++
+     });
+diff --git a/app/scripts/controllers/drdetailController.js b/app/scripts/controllers/drdetailController.js
+new file mode 100644
+index 0000000..a79297b
+--- /dev/null
++++ b/app/scripts/controllers/drdetailController.js
+@@ -0,0 +1,23 @@
++'use strict';
++
++/**
++ * @ngdoc function
++ * @name Ionic.controller:MainController
++ * @description
++ * # MainController
++ */
++angular.module('wineApp')
++    .controller('DrdetailController', function($window, $scope, ajax, CONFIG, $location, $stateParams, $ionicNavBarDelegate) {
++        var drId = $stateParams.drId;
++        var ajaxUrl = CONFIG.API.drinfo + '?userId=' + drId;
++        $scope.resourceURL = CONFIG.getResourceURL();
++        //$scope.drBean = {};
++        ajax.get(ajaxUrl).then(function(response) {
++            $scope.drInfo = response.data.msg;
++            if ($scope.drInfo.height == '')
++                $scope.drInfo.height = '-';
++            if ($scope.drInfo.weight == '')
++                $scope.drInfo.weight = '-';
++        });
++
++    });
+diff --git a/app/scripts/controllers/mainController.js b/app/scripts/controllers/mainController.js
+deleted file mode 100644
+index faa174f..0000000
+--- a/app/scripts/controllers/mainController.js
++++ /dev/null
+@@ -1,14 +0,0 @@
+-'use strict';
+-
+-/**
+- * @ngdoc function
+- * @name Ionic.controller:MainController
+- * @description
+- * # MainController
+- */
+-angular.module('wineApp')
+-  .controller('MainController', function($scope) {
+-
+-    // do something with $scope
+-
+-  });
+diff --git a/app/scripts/controllers/myController.js b/app/scripts/controllers/myController.js
+new file mode 100644
+index 0000000..e763ca9
+--- /dev/null
++++ b/app/scripts/controllers/myController.js
+@@ -0,0 +1,14 @@
++'use strict';
++
++/**
++ * @ngdoc function
++ * @name Ionic.controller:SettingsController
++ * @description
++ * # SettingsController
++ */
++angular.module('wineApp')
++  .controller('MyController', function($scope) {
++
++    // do something with $scope
++
++  });
+diff --git a/app/scripts/controllers/settingsController.js b/app/scripts/controllers/settingsController.js
+deleted file mode 100644
+index 4a6c6d6..0000000
+--- a/app/scripts/controllers/settingsController.js
++++ /dev/null
+@@ -1,14 +0,0 @@
+-'use strict';
+-
+-/**
+- * @ngdoc function
+- * @name Ionic.controller:SettingsController
+- * @description
+- * # SettingsController
+- */
+-angular.module('wineApp')
+-  .controller('SettingsController', function($scope) {
+-
+-    // do something with $scope
+-
+-  });
+diff --git a/app/scripts/controllers/shopController.js b/app/scripts/controllers/shopController.js
+new file mode 100644
+index 0000000..e4a321f
+--- /dev/null
++++ b/app/scripts/controllers/shopController.js
+@@ -0,0 +1,14 @@
++'use strict';
++
++/**
++ * @ngdoc function
++ * @name Ionic.controller:SettingsController
++ * @description
++ * # SettingsController
++ */
++angular.module('wineApp')
++  .controller('ShopController', function($scope) {
++
++    // do something with $scope
++
++  });
+diff --git a/app/scripts/controllers/wineController.js b/app/scripts/controllers/wineController.js
+new file mode 100644
+index 0000000..e964e9b
+--- /dev/null
++++ b/app/scripts/controllers/wineController.js
+@@ -0,0 +1,41 @@
++'use strict';
++
++/**
++ * @ngdoc function
++ * @name Ionic.controller:MainController
++ * @description
++ * # MainController
++ */
++angular.module('wineApp')
++    .controller('WineController', function($window,$scope,ajax,CONFIG) {
++        $scope.page = 0;
++        $scope.end = false;
++        $scope.resourceURL = CONFIG.getResourceURL();
++        $scope.imgWidth = ($window.innerWidth) * 0.46;
++        $scope.itemList = [];
++
++        var fetchSize = 10;
++        var ajaxUrl = CONFIG.API.wine + '?offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
++        $scope.loadMoreItems = function() {
++            ajax.get(ajaxUrl).then(function(response) {
++                console.log($scope.page);
++                Array.prototype.push.apply($scope.itemList, response.data.msg.data);
++                $scope.page = $scope.page + 1;
++                if (response.data.msg.data.length == 0) $scope.end = true;
++                $scope.$broadcast('scroll.infiniteScrollComplete');
++            });
++        }
++
++        $scope.doRefresh = function() {
++            $scope.page = 0;
++            $scope.end = false;
++            $scope.itemList = [];
++            ajax.get(ajaxUrl).then(function(response) {
++                console.log($scope.page);
++                Array.prototype.push.apply($scope.itemList, response.data.msg.data);
++                $scope.page = $scope.page + 1;
++                $scope.$broadcast('scroll.refreshComplete');
++            });
++        }
++
++    });
+diff --git a/app/styles/app.css b/app/styles/app.css
+deleted file mode 100644
+index d410c59..0000000
+--- a/app/styles/app.css
++++ /dev/null
+@@ -1,10 +0,0 @@
+-/*首页 达人*/
+-.wine_dr{ display:inline-block; width:100%;}
+-.wine_dr dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+-.wine_dr dt img{ width:100%;}
+-.wine_dr dd{ float:left; padding:4% 3%; width:94%;}
+-.wine_dr dd p{ float:left; width:100%; position:relative; z-index:2; line-height:1.6em; font-size:0.8em;}
+-.wine_dr dd p i{ float:left;}
+-.wine_dr dd p img{ float:left; width:32%; margin-left:5px; padding-top:1px;}
+-.wine_dr dd p span{ float:right; color:#6b4485;}
+-.wine_dr dd p em{ float:left; width:33.3%; color:#999; text-align:center; margin-top:5px;}
+\ No newline at end of file
+diff --git a/app/styles/app.scss b/app/styles/app.scss
+new file mode 100644
+index 0000000..a21e005
+--- /dev/null
++++ b/app/styles/app.scss
+@@ -0,0 +1,459 @@
++@charset "utf-8";
++/* CSS Document */
++
++*{ margin:0; padding:0;}
++a{ text-decoration:none; color:#fff;}
++li{ list-style:none;}
++img,a img{ border:none; display:block;}
++i, em{ font-style:normal;}
++input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
++h1{ float:left; width:97%; font-size:1em; color:#333; font-weight:400; padding:2% 0 0 3%; background-color:#fff;}
++h2{ float:left; width:100%; border-bottom:1px #eee solid; border-top:1px #eee solid;}
++h2 a{ float:left; display:inline-block; width:33.3333%; text-align:center; font-size:0.62em; color:#666; font-weight:400; padding:10px 0;}
++h2 a:active,h2 a.wine_active{ color:#6b4485; border-bottom:2px #6b4485 solid;}
++h2 a span img{ float:right; position: relative; width:10%; right:25px; margin-top:4px;}
++h2 a em img{display: block; width:20%; margin:0 auto;}
++h2 a i{ margin-left:5px;}
++h3{font-size:1em; font-weight:400; padding:10px 0 5px 10px; color:#6b4485;}
++h4{font-size:0.9em; padding:3%; border-bottom:1px #f8f8f8 solid; margin-top:5px; font-weight:400; color:#666;}
++h4 span{ float:right; color:#6b4485;}
++h4 a{ float:right; color:#999;}
++
++/*top_start*/
++.wine_header{ position:fixed; width:100%; top:0px; left:0px; z-index: 2000; height:48px; line-height:48px; background:url(../images/topbg.jpg) no-repeat; background-size: cover; color:#6b4485;}
++.wine_toptitle{ text-align:center; font-size:1.2em;}
++.wine_more{ position:absolute; right:0; top:12px;}
++.wine_more a{ float:left; margin:0 -12px 0 0;}
++.wine_more a img{width:55%;}
++.wine_home{position:absolute; top:13px; width:10%;}
++.wine_home a img{ display:block; width:100%;}
++.wine_mybianji{position:absolute; right:3%; font-size:0.9em; top:1px;}
++.wine_mybianji a{ color:#999;}
++
++
++/*首页_start*/
++	/*banner*/
++	.wine_img100{ float:left; width:100%;}
++	.wine_img100 img{width:100%;}
++	
++	/*首页 推荐*/
++	.wine_tuijian{ float:left; width:100%; background-color:#f8f8f8;}
++	.wine_tuijian dl{ float:left; width:100%; margin-bottom:10px; background-color:#fff;}
++	.wine_tuijian dt{ width:96%; padding:2% 2% 0 2%; overflow:hidden; z-index:1; line-height:2.5em;}
++	.wine_tuijian dt a.wine_mingcheng{ float:left; font-size:0.8em; color:#555;}
++	.wine_tuijian dt a.wine_mingcheng img{ float:left; position:relative; width:36px; border-radius:50%; top:0px; margin-right:8px;}
++	.wine_tuijian dt span{ float:right; font-size:0.8em; margin-right:-20px;}
++	.wine_tuijian span a{ float:left;}
++	.wine_tuijian span a.wine_zan{color:#555;}
++	.wine_tuijian span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
++	.wine_tuijian span a.wine_del img{ float:left; width:40%; margin:12px -23px 0 0;}
++	.wine_tuijian dd{position:relative; margin:0 2% 2% 2%;}
++	.wine_tuijian dd img{ width:100%;}
++	
++	/*首页 达人*/
++	.wine_dr{ display:inline-block; width:100%;}
++	.wine_dr dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
++	.wine_dr dt img{ width:100%;}
++	.wine_dr dd{ float:left; padding:4% 3%; width:94%;}
++	.wine_dr dd p{ float:left; width:100%; position:relative; z-index:2; line-height:1.6em; font-size:0.8em;}
++	.wine_dr dd p i{ float:left;}
++	.wine_dr dd p img{ float:left; width:32%; margin-left:5px; padding-top:1px;}
++	.wine_dr dd p span{ float:right; color:#6b4485;}
++	.wine_dr dd p em{ float:left; width:33.3%; color:#999; text-align:center; margin-top:5px;}
++	
++	
++	/*首页 酒庄*/
++	.wine_jz{ float:left; width:100%; background-color:#fff; margin-top:5px;}
++	.wine_jz ul li{ float:left; text-align:center; position:relative; margin:2% 0 2% 3%; width:25.6%; border:1px #f3f3f3 solid; border-radius:15px; padding:1.5%;}
++	.wine_jz li img{ float:left; width:100%; border-radius:10px; margin-bottom:3px;}
++	.wine_jz ul li a{ color:#555; font-size:0.7em; line-height:1.6em;}
++
++/*footer_start*/
++.wine_footer{ position:fixed; bottom:-22px; left:0; width:100%; z-index:1999; background-color:#f3f3f3; border-top:1px #ddd solid;}
++.wine_footer li{ float:left; width:20%; font-size:0.7em; line-height:1.8em;}
++.wine_footer li a{ position: relative; z-index:2000; display:block; width:100%; text-align:center; color:#666; padding:5px 0;}
++.wine_footer li a img{ width:36%; margin:0 auto;}
++.wine_footer li a.wine_domicon3,.wine_footer li a:hover.wine_domicon3{width:100%; bottom:19px; background:url(../images/bom_home_icon.png) no-repeat center 0; background-size:cover; padding-top:70px;}
++.wine_footer li a.wine_bom_select{ color:#a95294;}
++
++
++/*达人_start*/
++.wine_drtx{ float:left; width:92%; margin:4%;}
++.wine_drtx dt{ float:left; width:20%}
++.wine_drtx dt img{ border-radius:50%; border:3px #fff solid; width:100%;}
++.wine_drtx dd{float:left; width:76%; color:#555; margin:3% 0 0 4%; font-size:0.8em;}
++.wine_drtx dd li b{ font-size:1.4em; font-weight:400; line-height:1.6em;}
++.wine_drtx dd li a{ float:right; font-size:0.8em; text-align:right; padding:5px 20px; border-radius:3px; position: relative; z-index:1; background-color:#000; filter:Alpha(opacity=20); background-color: rgba(0,0,0,0.2);}
++
++/*达人_start*/
++	/*达人头像*/
++	.wine_drtx2{position: relative; float:left; width:90%; margin:20px 10px auto;}
++	.wine_drtx2 li a{position:absolute; width:30%; text-align:center;color:#999; font-size:0.7em; line-height:2em;}
++	.wine_drtx2 li a.l{ left:0; top:36%;}
++	.wine_drtx2 li a.r{ right:0; top:36%;}
++	.wine_drtx2 li a img{width:40%; border:2px #6b4485 solid; border-radius:50%; margin:0 auto;}
++	.wine_drtx2 li.wine_dr_touxiang{width:40%; margin:0 auto;}
++	.wine_drtx2 li.wine_dr_touxiang img{ border-radius:50%; border:3px #fff solid; width:100%; padding:6%; border:2px #6b4485 dashed;}
++	
++	/*达人首页*/
++	.wine_drhome{ float:left; width:100%;}
++	.wine_drhome li{ float:left; width:96%; position:relative; margin:2%;}
++	.wine_drhome li img{ width:100%;}
++	.wine_drhome .wine_drbz{ position: absolute; bottom:0; left:0; width:94%; padding:2% 3%; color:#fff; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
++	.wine_drhome .wine_drbz p{font-size:1em;}
++	.wine_drhome .wine_drbz span{font-size:0.8em; color:#ccc;}
++	.wine_mytuijian{ display:inline-block; width:100%;}
++	.wine_mytuijian li{display:inline-block; position:relative; margin:2% 2% 1% 2%;}
++	.wine_mytuijian li img{ width:100%;}
++	.wine_mytuijian .wine_drbz{ position: absolute; bottom:0; left:0; width:94%; padding:2% 3%; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
++	.wine_mytuijian .wine_drbz p{ font-size:1em; color:#fff; margin-bottom:10px;}
++	
++	/*达人基本信息*/
++	.wine_drzbxx{float:left; width:100%;}
++	.wine_drzbxx li{float:left; width:100%; padding:4% 3%; border-bottom:1px #eee solid;}
++	.wine_drzbxx li span,.wine_drzbxx li img{ float:left;}
++	
++	/*达人留言*/
++	.wine_drliuyan{ float:left; width:100%;}
++	.wine_drliuyan dl{ float:left; width:94%; border-bottom:1px #eee solid; padding:3%;}
++	.wine_drliuyan dt{float:left; width:15%}
++	.wine_drliuyan dt img{border-radius:50%; border:3px #fff solid; width:100%;}
++	.wine_drliuyan dd{ float:left; width:82%; margin:3% 0 0 3%; color:#999; font-size:0.7em;}
++	.wine_drliuyan dd p{ color:#555; font-size:1.2em;}
++	.wine_drliuyan dd a{ float:right; background-color:#6b4485; padding:5px 12px; border-radius:3px; margin-left:5px;}
++	.wine_drliuyan dd.wine_huifu{ color:#ccc; width:97%;}
++	.wine_drliuyan dd.wine_huifu span{ color:#6b4485;}
++	.wine_wyly{ float:left; margin:5%; width:90%;}
++	.wine_wyly li p{ color:#555;}
++	.wine_wyly li textarea{ width:94%; border:1px #eee solid; margin-top:5px; color:#666; padding:3%}
++	.wine_wyly li a{ float:left; background-color:#6b4485; width:100%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin-top:5px;}
++	/*弹出框*/
++	.wine_upbox{ position:absolute; width:80%; margin:50% 10%; z-index:2009; border-radius:3px; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
++	.wine_upbox textarea{ width:83%; border:1px #ccc solid; height:60px; margin:18% 5% 3% 5%; border-radius:3px; padding:3%;}
++	.wine_upbox li a{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:0 5% 15px 5%;}
++	.wine_upbox p{ position: absolute; top:5%; right:-8%;}
++	.wine_upbox p img{ width:50%;}
++
++/*红酒_start*/
++	/*红酒首页*/
++	.wine_daiyan{display:inline-block; width:100%;}
++	.wine_daiyan li{ float:left; width:47%; display:inline-block; position:relative; margin:2% 0 0 2%;}
++	.wine_daiyan li img{ width:100%;}
++	.wine_drbz{ float:left; position: absolute; bottom:0; left:0; width:94%; padding:3%; overflow:hidden; z-index:1; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7);}
++	.wine_drbz p{ float:left; width:100%;}
++	.wine_drbz a.wine_mingcheng{ float:left; line-height:1.8em; font-size:0.8em;}
++	.wine_drbz a.wine_mingcheng img{ float:left; position:relative; width:24px; border-radius:50%; top:0px; margin-right:5px;}
++	.wine_drbz span{ float:right; font-size:0.8em; margin-right:-20px;}
++	.wine_drbz span a.wine_zan{color:#555;}
++	.wine_drbz span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
++	/*红酒*/
++	.wine_redjiu{ display:inline-block; width:100%;}
++	.wine_redjiu dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
++	.wine_redjiu dt img{ width:100%;}
++	.wine_redjiu dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%;}
++	.wine_redjiu dd li{ float:left; width:100%; }
++	.wine_redjiu dd li a{ float:left; color:#555; font-size:0.8em; margin:8px 0; line-height:1.2em;}
++	.wine_redjiu dd li em{ float:left; color:#999; font-size:0.7em;}
++	.wine_redjiu dd li i{ float:right; color:#999; font-size:0.7em;}
++	.wine_redjiu dd li span{ float:left; font-size:0.7em; margin:5px 0;}
++	.wine_redjiu dd li span b{ color:#6b4485; font-size:1.3em; font-weight:400;}
++	
++	/*酒庄介绍*/
++	.wine_jzabout{ float:left; margin:10px 12px; font-size:0.8em; line-height:1.8em;}
++	.wine_jzabout p{ font-size:1.2em; color:#6b4485;}
++
++	/*红酒分类*/
++	.wine_pro_list li a{position: relative;z-index:9999; border:1px #999 solid; border-left:none; border-top:none; top:48px; float:left; display:block; width:33%; padding:20px 0;text-align:center; font-size:0.9em;}
++	.wine_pro_list li a:hover,.wine_sec{ background-color:#6b4485;}
++	
++/*购物车*/
++.wine_shopcar dl{ float:left; width:96%; border-bottom:1px #eee solid; padding:10px 2%;}
++.wine_shopcar dt{ float:left; width:20%; margin-top:-18px;}
++.wine_shopcar dt input{ position:relative; top:40px;}
++.wine_shopcar dt img{ width:100%; position:relative; margin-left:15px;}
++.wine_shopcar dd{ float:left; width:75%; margin-left:5%; font-size:0.8em; color:#999; line-height:2em;}
++.wine_shopcar dd a{ color:#555; font-size:1.2em;}
++.wine_shopcar dd em{ float:right;}
++.wine_shopcar dd em a{ float:left; display:block; font-size:0.8em; color:#999;}
++.wine_shopcar dd em a img{ float:left; width:15%; margin:6px 3px 0 0;}
++.wine_shopcar dd b{ color:#6b4485; font-size:1.2em; font-weight:400;}
++.wine_shopcar dd span{ text-decoration:line-through;}
++.wine_shopcar dd label{ float:left; margin-right:5px;}
++.bb_inpNO{ float:left; width:50px; height:22px; border:1px #eee solid; border-left:none; border-right:none; text-align:center;}
++.bor_Rnone,.bor_Lnone{float:left; width:22px; height:22px; border:1px #eee solid; text-align:center; color:#999; line-height:22px;}
++.bor_Rnone,.bor_Lnone{ background-color:#eee; color:#6b4485;}
++.wine_shopcar_jiesuan{ position:fixed; bottom:0; width:100%;}
++.wine_shopcar_jiesuan li{ float:left; width:33.3%; font-size:0.8em; margin-top:10px; height:42px; line-height:42px; background-color:#eee; border-top:1px #ddd solid;}
++.wine_shopcar_jiesuan input{ margin:0 5px 0 10px; position:relative; top:2px;}
++.wine_shopcar_jiesuan li a{ float:left; background-color:#6b4485; text-align:center; width:100%;}
++.wine_shopcar_jiesuan li b{ color:#6b4485; font-weight:400;}
++
++/*我的酒旅*/
++.wine_mybanner{ float:left; position: relative; width:100%; background:url(../images/temp/mybg.jpg) no-repeat; background-size: cover;}
++.wine_mytx{ float:left; width:92%; margin:10px 4%;}
++.wine_mytx dt{ float:left; width:20%;}
++.wine_mytx dt img{ border-radius:50%; border:3px #fff solid; width:100%;}
++.wine_mytx dd{float:left; width:76%; color:#555; margin:3% 0 0 4%; font-size:0.8em;}
++.wine_mytx dd li b{font-size:1.4em; font-weight:400; line-height:1.6em;}
++.wine_mytx p{ float:right; width:100%; font-size:0.8em; text-align:right;}
++.wine_mytx p a{ color:#555;}
++.wine_mytj{ float:left; position: relative; bottom:0; width:100%; text-align:center; font-size:0.8em;}
++.wine_mytj li{ float:left; display:inline; color:#fff; width:32%; margin:0 0.65%; padding:5px 0;  background-color:#000; filter:Alpha(opacity=15); background-color: rgba(0,0,0,0.15);}
++
++.wine_mywine{ float:left; width:100%; background-color:#f8f8f8;}
++.wine_mybox{ float:left; width:100%; background-color:#fff; margin-bottom:10px;}
++.wine_mybox a{ color:#555;}
++.wine_mydd a{ float:left; display:block; width:100%; border-bottom:1px #f3f3f3 solid; padding:12px 0;}
++.wine_mydd a span{ float:left; color:#555; font-size:0.9em; margin:3px 0 0 10px;}
++.wine_mydd a span img{ float:left; width:15%; margin:1px 5px 0 0;}
++.wine_mydd a em{ float:right; color:#999; margin:3px 10px 0 0; background: url(../images/my_r_icon.png) no-repeat right; padding-right:18px; font-size:0.9em;}
++.wine_mydd a i{ float:right; text-indent:-9999px; margin:3px 10px 0 0; background: url(../images/my_r_icon.png) no-repeat right 0; padding-right:18px;}
++.wine_mydfk{ margin:0 auto; width:100%; border-bottom:1px solid #eee; overflow:hidden;} 
++.wine_mydfk li{ float:left; width:25%; padding:10px 0;} 
++.wine_mydfk li a{ position: relative; width:100%; display:block; text-align:center; font-size:0.8em;} 
++.wine_mydfk li a img{ width:40%; margin:0 auto;}
++.wine_zhushi{position: absolute;float:right; right:15px;top:0; font-size:0.8em; width:14px; line-height:14px; height:14px; background-color:#6b4485; border-radius:50%; color:#fff; z-index:999;}
++	
++	/*我的账户*/
++	.wine_myzh li{float:left; display:block; width:100%; border-bottom:1px #f3f3f3 solid; padding:15px 0;}
++	.wine_myzh li a span{ display:block; padding-left:15px;}
++	.wine_pin{ padding-top:8px;}
++	.wine_myzh li a em{ float:right; margin:0 15px; background: url(../images/my_r_icon.png) no-repeat right; padding-right:18px; text-indent:-9999px;}
++	.wine_myzh li a em img{ float:right; border-radius:50%; width:36px;}
++	.wine_myzh li a i{ float:right; color:#999; margin:0 15px; font-size:0.9em;}
++	/*酒庄试酒*/
++	.wine_myjzsj{ float:left; width:100%;}
++	.wine_myjzsj dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
++	.wine_myjzsj dt img{ width:100%;}
++	.wine_myjzsj dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%;}
++	.wine_myjzsj dd li{ float:left; width:100%; }
++	.wine_myjzsj dd li a{color:#555; font-size:0.8em; margin:5px 0;}
++	.wine_myjzsj dd li span{font-size:0.9em; color:#a95293;}
++	.wine_myjzsj dd li em{color:#999; font-size:0.7em;}
++	.wine_myjzsj dd li a.wine_shbtn{ float:left; width:100%; background-color:#eee; padding:7px 0; text-align:center; border-radius:3px;}
++	/*我的足迹*/
++	.wine_myzj{ float:left; width:100%;}
++	.wine_myzj dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
++	.wine_myzj dt img{ width:100%;}
++	.wine_myzj dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%; font-size:0.8em;}
++	.wine_myzj dd a{color:#555;}
++	/*我的订单*/
++	.wine_order_list{ float:left; width:100%; background-color:#fff; margin-bottom:10px;}
++	.wine_order_list dl{ float:left; width:94%; border-bottom:1px #f8f8f8 solid; padding:3%;}
++	.wine_order_list dt{ float:left; width:30%;}
++	.wine_order_list dt img{ width:100%; position:relative;}
++	.wine_order_list dd{ float:left; width:67%; margin-left:3%; font-size:0.8em; color:#999; line-height:1.5em;}
++	.wine_order_list dd a{ color:#555; font-size:1.2em;}
++	.wine_order_list dd p{ margin:5px 0; color:#999;}
++	.wine_order_list dd b{ color:#6b4485; font-size:1em; font-size:400;}
++	.wine_order_list dd span{ text-decoration:line-through;}
++	.wine_order_list dd .wine_order_time{ font-size:0.7em; color:#999;}
++	.wine_order_btn{ float:right; margin:15px 0 20px 0;}
++	.wine_order_btn a{ font-size:0.8em; margin-right:10px; padding:5px 12px; border:1px #eee solid; border-radius:3px; color:#555;}
++	.wine_order_btn a.wine_order_confirm{ background-color:#6b4485; color:#fff; border:none;}
++	.wine_order_btn a.wine_order_confirm2{ background-color:#ddd; color:#fff; border:none;}
++	/*我的维权*/
++	.wine_myrights ul{ float:left; width:92%; padding:4%; font-size:0.9em; line-height:1.8em; background-color:#fff; margin-bottom:10px;}
++
++/*登录*/
++.wine_login ul{ display:table; width:85%; margin:30px auto; border:1px #eee solid; border-radius:3px; overflow:hidden;}
++.wine_login li{ float:left; width:100%; border-bottom:1px #ddd solid; overflow:hidden;}
++.wine_login li span{ float:left; text-align:right; width:15%; padding:6% 3% 3% 3%; font-size:0.8em; color:#666;}
++.wine_login li input{ float:left; width:68%; border:none; padding:6% 5%; color:#999; margin:0.5%; overflow:hidden;}
++.wine_login li.wine_clearline{ border:none;}
++.wine_login p a{ display:table; width:75%; margin:0 auto; background-color:#6b4485; padding:3% 5%; border-radius:3px; text-align:center; font-size:1em;}
++.wine_zhuce a{ float:right; display:block; color:#999; margin:20px 30px 0 0; font-size:0.8em;}
++	/*注册*/
++	.wine_password ul{ width:85%; margin:15px auto; overflow:hidden;}
++	.wine_password li{ float:left; width:100%; overflow:hidden; font-size:0.8em; margin-top:15px;}
++	.wine_password li label{ float:left; width:20%; text-align:right; margin:8px 10px 0 0; color:#666;}
++	.wine_password li input{ float:left; width:62%; border:1px #eee solid; border-radius:3px; padding:3% 5%; color:#999; overflow:hidden;}
++	.wine_password li span{ float:left; margin:10px 0 0 24%; color:#ccc;}
++	.wine_password p{ float:left; width:74%; margin:5% 8%; background-color:#6b4485; padding:3% 5%; border-radius:3px; text-align:center; font-size:1em;}
++
++/* 遮罩层 */
++.wine_zzc_div{ position:fixed; bottom:0px; right:0px; width:100%; height:100%;  background-color: Gray;filter:alpha(Opacity=90);-moz-opacity:0.9;opacity: 0.9;z-index:2001; display:none;}
++/*底部首页弹框_start*/
++.wine_footkuan li a{position: relative;z-index:9999; top:200px; float:left; display:block; width:33.3%; padding-top:68px;text-align:center; font-size:0.9em;}
++.wine_footkuan li a.wine_xjicon{ background:url(../images/xj_icon.png) no-repeat center 0;}
++.wine_footkuan li a.wine_fxicon{ background:url(../images/fx_icon.png) no-repeat center 0;}
++.wine_footkuan li a.wine_homeicon{ background:url(../images/home_icon.png) no-repeat center 0;}
++.wine_cloes a{position:fixed; display:block; left:40%; width:20%; text-indent:-9999px; width:60px; height:60px; bottom:100px; background:url(../images/cloes_icon.png) no-repeat center 0; text-align:center;}
++
++/*产品详情*/
++.wine_jzbanner{ float:left; width:94%; background:url(../images/temp/jzbg.jpg) repeat-x; padding:10px 3%;}
++.wine_jzbanner dt img{ float:left; width:60px;}
++.wine_jzbanner dd{ float:left; margin:18px 0 0 10px; color:#fff;}
++.wine_jzbanner dd a{ padding:5px 10px; background-color:#6b4485; margin-left:10px; border-radius:3px;}
++.wine_products_more{ font-size:0.9em;}
++.wine_products_more dt img{width:100%;}
++.wine_products_more dd{ border-bottom:1px #ddd solid; padding:10px;}
++.wine_products_more dd span{ color:#999; font-size:0.7em;}
++.wine_price{ float:left; width:100%; margin:10px 0; padding-bottom:20px; line-height:1.8em; font-size:0.8em; border-bottom:10px #f6f6f6 solid;}
++.wine_price ul{ margin:0 10px;}
++.wine_price em{ float:right;}
++.wine_price b{ color:#6b4485; font-size:1.2em; font-weight:400;}
++.wine_price label{ float:left; margin-right:5px;}
++.wine_price i{ color:#999;}
++.wine_id{ float:left;}
++.wine_id p img{ float:left; margin:2%; width:96%;}
++.wine_id ul{ float:left; margin:0 3% 3% 3%;}
++.wine_id ul li{ float:left; width:100%; font-size:0.8em; color:#666; line-height:1.8em;}
++.wine_pingjia dl{ float:left; width:94%; border-bottom:1px #eee solid; padding:10px 3%; font-size:0.8em;}
++.wine_pingjia dt img{ float:left; border-radius:50%; border:3px #fff solid; width:28px;}
++.wine_pingjia dt span{ float:left; margin-left:5px; padding-top:8px; color:#666;}
++.wine_pingjia dd{ float:left; width:100%;}
++.wine_pj_time{ color:#999; font-size:0.7em; margin-top:5px;}
++.wine_promore{ float:left; width:100%;}
++.wine_tuwenmore{ float:left; width:96%; margin:2%;}
++.wine_tuwenmore img{ width:100%;}
++	/*底部购买*/
++.wine_shopping{ position:fixed; bottom:0; width:100%;}
++.wine_shopping li{ float:left; width:33.3%; font-size:0.8em; margin-top:10px; height:42px; line-height:42px; background-color:#eee; border-top:1px #ddd solid;}
++.wine_shopping li a{ float:left; background-color:#eee; width:100%; color:#555;}
++.wine_shopping li a.wine_sc{ float:left; text-align:left; margin-left:20px;}
++.wine_shopping li a.wine_sc img{float:left; width:14%; margin:13px 3px 0 0;}
++.wine_shopping li a.wine_jlshopcar{ float:left;}
++.wine_shopping li a.wine_jlshopcar img{ float:left; width:14%; margin:13px 4px 0 0;}
++.wine_shopping li a.wine_jgshop{ background-color:#6b4485; color:#fff; text-align:center;}
++
++/*搜索*/
++.wine_search{ float:left; width:100%; background-color:#eee; padding:10px 0;}
++.wine_search select{ float:left; width:21%; margin-left:2%; border:1px #eee solid; border-right:none; height:34px; padding:0 8px; border-top-left-radius:5px; border-bottom-left-radius:5px;}
++.wine_search input{ float:left; position:relative; width:70%;  border:1px #eee solid; height:32px; padding:0 8px; border-top-right-radius:5px; border-bottom-right-radius:5px;}
++.wine_search a{ position:absolute; display:block; width:5%; margin-top:8px; right:5%; overflow:hidden;}
++.wine_search a img{  width:100%;}
++.wine_search_list{ display:table; width:100%;}
++.wine_search_list dl{ float:left; width:96%; border-bottom:1px #eee solid; padding:10px 2%;}
++.wine_search_list dt{ float:left; width:26%;}
++.wine_search_list dt img{ width:100%; position:relative; border:1px #f8f8f8 solid;}
++.wine_search_list dd{ float:left; width:70%; margin-left:4%; font-size:0.8em; color:#999; line-height:2em;}
++.wine_search_list dd a{ display:block; color:#555; font-size:1.2em;}
++.wine_search_list dd a span{ color:#999; font-size:0.9em;}
++.wine_search_list dd b{ color:#6b4485; font-size:0.9em; font-weight:400;}
++
++/*表单*/
++.wine_table{ float:left; width:94%; margin:3%;}
++.wine_table li{ float:left; margin:8px 0; width:100%; font-size:0.8em;}
++.wine_table label{ float:left; width:24%; margin:5px 1% 0 0; font-size:0.8em; text-align:right; color:#666;}
++.wine_table input,.wine_table textarea{ float:left; width:66%; border:1px #eee solid; padding:6px 3%; border-radius:3px;}
++.wine_table i{ color:#f00;}
++.wine_table span{ float:left; margin-right:10px;}
++.wine_table span input{ float:left; width:inherit; margin:5px 5px 0 0;}
++.wine_table span em{ float:left;}
++.wine_table span select{ padding:3%; border:1px #eee solid;}
++.wine_table a{ float:left; width:100%; background-color:#6b4485; padding:7px 0; text-align:center; border-radius:3px;}
++.wine_table b{ float:left; font-weight:400; color:#999; font-size:0.7em; margin-top:3px;}
++
++/*收货地址*/
++.wine_add{float:left; width:100%; font-size:0.9em; background-color:#f8f8f8;}
++.wine_add dl{float:left; width:100%; background-color:#fff; margin-bottom:10px;}
++.wine_add dt{float:left; display:block; width:90%; line-height:1.8em; padding:3% 5%; border-bottom:1px #f3f3f3 solid;}
++.wine_add dt a{ color:#333;}
++.wine_add dt a p span{ float:right;}
++.wine_add dt a em{ color:#999;}
++.wine_add dd{ float:right;}
++.wine_add dd a{ float:left;color:#666; margin:10px 0;}
++.wine_add dd a img{ float:left; width:16%; margin:2px 5px 0 0;}
++.wine_newadd{ float:left; position:fixed; width:90%; margin:5%; bottom:65px;}
++.wine_newadd a{ float:left; width:100%; background-color:#6b4485; padding:7px 0; text-align:center; border-radius:3px;}
++
++/*订单详情*/
++.wine_order_jindu_line{border:1px #eee solid; position:absolute; top:54%;  width:93%; margin:0 3%;}
++.wine_order_jindu{float:left; position:relative; width:100%;}
++.wine_order_jindu ul{float:left; width:94%; margin:3%;}
++.wine_order_jindu li{ float:left; width:25%; padding:10px 0 5px 0;} 
++.wine_order_jindu li a{ position: relative; display:block; width:100%; text-align:center; font-size:0.8em; color:#999;} 
++.wine_order_jindu li a img{ width:48%; margin:0 auto;}
++.wine_order_jindu li a p{ margin-top:8px;}
++
++.wine_business{ float:left; width:100%; border-top:10px #f8f8f8 solid;}
++.wine_business dl{float:left; width:94%; margin:3%;}
++.wine_business ul{float:left; width:94%; margin:0 3% 3% 3%;}
++.wine_business dt{ float:left; width:20%; margin-top:10px;}
++.wine_business dt img{ width:100%; border-radius:5px;}
++.wine_business dd{ float:left; width:77%; margin:8px 0 0 3%; line-height:1.2em; font-size:0.9em;}
++.wine_business dd p{ color:#6b4485; margin-top:5px; font-size:1.1em;}
++.wine_business li{float:left; display:inline-block; width:50%; margin:0 auto;}
++.wine_business li a{float:left; width:66%; padding:5px 15%; border:1px #eee solid; border-radius:5px; text-align:center; margin:15px 0 5px 0;font-size:14px; color:#666;}
++.wine_business li a img{ float:left; width:18%; margin-top:2px;}
++.wine_business li a.wine_business_service{ float:right;}
++
++.wine_order_box{float:left; width:100%; border-top:10px #f8f8f8 solid;}
++.wine_order_box li{ margin:15px; font-size:0.8em; color:#666;}
++
++.wine_wuliu{float:left; width:100%; border-top:10px #f8f8f8 solid;}
++.wine_wuliu ul{float:left; width:94%; margin:3%}
++.wine_wuliu li{ color:#999; font-size:0.8em; margin-bottom:3%;}
++.wine_wuliu li.wine_wuliu_new{ color:#6b4485;}
++
++/*分享*/
++.wine_share_tu{ font-size:0.9em;}
++.wine_share_tu dt img{width:100%;}
++.wine_share_tu dd{padding:2% 5%;}
++.wine_share_tu dd p{ color:#999;}
++.wine_share_tu dd p b{ color:#6b4485;}
++.wine_share dl{float:left; width:100%; text-align:center; border-top:10px #f8f8f8 solid;}
++.wine_share dl dt{float:left; width:40%; margin:5% 30% 0 30%;}
++.wine_share dl dt img{ width:100%;}
++.wine_share dl dd{ color:#999; font-size:0.9em;}
++.wine_share dl dd p{ font-size:1.2em; color:#333;}
++.wine_share ul{ float:left; width:100%; margin-top:5%; border-top:10px #f8f8f8 solid;}
++.wine_share li{ float:left; width:40%; margin:5%; text-align:center; font-size:0.9em;}
++.wine_share li img{ float:left; width:60%; margin:0 20%;}
++	/*分享达人*/
++	.wine_share_dr{ float:left; width:100%; background-color:#f8f8f8;}
++	.wine_share_dr dl{ float:left; width:100%; margin-bottom:10px; background-color:#fff;}
++	.wine_share_dr dt img{ width:100%;}
++	.wine_share_dr dd{ width:96%; padding:2% 2% 0 2%; overflow:hidden; z-index:1; line-height:2.5em;}
++	.wine_share_dr a.wine_mingcheng{ float:left; font-size:0.8em; color:#555;}
++	.wine_share_dr a.wine_mingcheng img{ float:left; position:relative; width:36px; border-radius:50%; top:0px; margin-right:8px;}
++	.wine_share_dr span{ float:right; font-size:0.8em; margin-right:-20px;}
++	.wine_share_dr span a.wine_zan{color:#555;}
++	.wine_share_dr span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
++
++
++/*右上角弹框_start*/
++.wine_morekuan{ display:none; position: fixed; z-index:9999; width:90px; background-color:#fff; right:0; top:48px; border:1px #eee solid; border-bottom:none;}
++.wine_morekuan li a{ float:left; display:block; padding:10px 0; border-bottom:1px #eee solid; color:#666; font-size:0.8em;}
++.wine_morekuan li a img{ float:left; width:28%; margin:-2px 10px 0 10px;}
++.wine_sjx{ position: absolute; width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:5px solid #ddd; top:-5px; bottom:0; right:16px;}
++
++/*发布图片*/
++.wine_fbtu img{width:100%;}
++.wine_fbtu2{float:left; width:27%; margin:3%;}
++.wine_fbtu2 a img{ display:block; width:100%; border:1px #eee solid;}
++.wine_jiatu{float:left; width:27%; margin:3%;}
++.wine_jiatu a img{ display:block; width:40%; border:1px #eee solid; padding:30%;}
++.wine_fbbtn a{ float:left; width:43%; margin:5% 3% 1% 3%; padding:2% 0; background-color:#6b4485; border:1px #6b4485 solid; border-radius:3px; text-align:center;}
++.wine_fbbtn a.wine_cancel{background-color:#fff; border:1px #6b4485 solid; color:#6b4485;}
++.wine_fbbtn2{ float:left; width:100%;}
++	/*弹出框*/
++	.wine_fbtubox{ position:absolute; width:90%; margin:5%; z-index:2009; border-radius:3px; background-color:#fff; filter:Alpha(opacity=90); background-color: rgba(255,255,255,0.9); border:1px #f3f3f3 solid;}
++	.wine_fbtubox ul{ float:left; margin:10% 5% 5% 5%;}
++	.wine_fbtubox li{ float:left; width:100%; border-bottom:1px #f6f6f6 solid; padding:3% 0;}
++	.wine_fbtubox li a img{ float:left; width:15%;}
++	.wine_fbtubox li a span{ float:left; width:82%; margin:2% 0 0 3%; color:#333; font-size:0.8em;}
++	.wine_tjbtn{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:10px 5%;}
++	.wine_fbtubox p{ position: absolute; top:1; right:-11%;}
++	.wine_fbtubox p img{ width:50%;}
++	/*添加图片弹出框*/
++	.wine_fbtubox2{ position:absolute; width:80%; margin:0 10%; z-index:2009; border-radius:3px; background-color:#fff; filter:Alpha(opacity=90); background-color: rgba(255,255,255,0.9);}
++	.wine_fbtubox2 span img{ width:100%;}
++	.wine_tjbtn{ float:left; background-color:#6b4485; width:90%; text-align:center; color:#fff; padding:8px 0; border-radius:3px; margin:10px 5%;}
++	.wine_fbtubox2 p{ position: absolute; top:1%; right:-10%;}
++	.wine_fbtubox2 p img{ width:50%;}
++	.wine_biaoqian{ position: absolute; z-index:9999; top:30%; left:10%; padding:3% 5%; font-size:0.9em; color:#fff; background-color:#000; filter:Alpha(opacity=70); background-color: rgba(0,0,0,0.7); 
++					border-top-left-radius:20px; border-bottom-right-radius:20px; border-top-right-radius:5px; border-bottom-left-radius:5px;}
++	.wine_biaoqian span a{ float:left; margin:5px 0 0 10px;}
++	.wine_biaoqian p{ position: absolute; top:-50%; right:-25%;}
++	.wine_biaoqian p img{ width:40%;}
++	.wine_biaoqian input{ float:left; padding:3%; border:1px #eee solid; border-radius:3px;}
++	
++	.wine_jiatu2{float:left; width:40%; margin:15% 30%;}
++	.wine_jiatu2 a img{ display:block; width:100%; border:1px #eee solid;}
++	
++	.wine_fbtu_list ul{ margin:10% 5% 0 5%;}
++	.wine_fbtu_list li{ float:left; width:100%; border-bottom:1px #f6f6f6 solid; padding:3% 0;}
++	.wine_fbtu_list li a img{ float:left; width:20%;}
++	.wine_fbtu_list li a span{ float:left; width:77%; margin-left:3%; color:#333;}
+\ No newline at end of file
+diff --git a/app/styles/layout/layout.scss b/app/styles/layout/layout.scss
+index 8dceaf1..cf291d0 100644
+--- a/app/styles/layout/layout.scss
++++ b/app/styles/layout/layout.scss
+@@ -1,5 +1,7 @@
+-.loader {
+-  text-align: center;
+-  width: 100%;
+-  padding: 20px 0;
++.entry_title{
++    white-space: nowrap;
++    overflow: hidden;
++    display:block;
++    text-overflow: ellipsis;
++    width:100%;
+ }
+diff --git a/app/templates/tab-daren-detail.html b/app/templates/tab-daren-detail.html
+new file mode 100644
+index 0000000..32a8e46
+--- /dev/null
++++ b/app/templates/tab-daren-detail.html
+@@ -0,0 +1,21 @@
++<ion-view>
++     <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
++     <ion-content class="padding-left">
++        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
++        </ion-refresher> 
++        <!--达人头像banner-->
++        <div class="">
++            <div class="wine_drtx2">
++                <ul ng-switch on="drInfo.sex">
++                    <li ng-switch-when="女"><a href="" class="l"><img src="images/nv_icon.png"><p>靓女</p></a></li>
++                    <li ng-switch-when="男"><a href="" class="l"><img src="images/nan_icon.png"><p>帅哥</p></a></li>
++                    <li class="wine_dr_touxiang"><img src="{{resourceURL}}{{drInfo.headPic}}"></li>
++                    <li><a href="" class="r"><img src="images/gz_icon.png"><p>关注数 {{drInfo.fansAmount}}</p></a></li>
++                </ul>
++            </div>
++
++        </div>
++        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
++        </ion-infinite-scroll>
++    </ion-content>
++</ion-view>
+\ No newline at end of file
+diff --git a/app/templates/tab-daren.html b/app/templates/tab-daren.html
+index 575a315..972abe5 100644
+--- a/app/templates/tab-daren.html
++++ b/app/templates/tab-daren.html
+@@ -1,12 +1,12 @@
+-<ion-view view-title="达人圈">
++<ion-view view-title="{{title}}">
+      <ion-content class="padding-left">
+         <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+         </ion-refresher> 
+         <div class="wine_dr" id="daren_list">
+             <dl ng-repeat="dr in drList">
+                 <dt>
+-                    <a href="">
+-                        <img src="{{resourceURL}}{{dr.headPic}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
++                    <a href="#/tab/daren/{{dr.id}}">
++                        <img src="{{resourceURL}}{{dr.headPic}}!{{imgWidth}}x{{imgWidth}}" alt="" height={{imgWidth}}>
+                     </a>
+                 </dt>
+                 <dd>
+@@ -15,8 +15,8 @@
+                         <i>{{dr.memberInfo.nickName}}</i>
+                     </p>
+                     <p>
+-                        <em>{{dr.memberInfo.height}} cm</em>
+-                        <em>{{dr.memberInfo.weight}} KG</em>
++                        <em>{{dr.memberInfo.height == ''? '-':dr.memberInfo.height}} cm</em>
++                        <em>{{dr.memberInfo.weight == ''? '-' : dr.memberInfo.weight}} KG</em>
+                         <em>{{dr.memberInfo.star}}</em>
+                     </p>
+                 </dd>
+diff --git a/app/templates/tab-home.html b/app/templates/tab-home.html
+new file mode 100644
+index 0000000..c801bca
+--- /dev/null
++++ b/app/templates/tab-home.html
+@@ -0,0 +1,4 @@
++<ion-view view-title="酒旅">
++    <ion-content>
++    </ion-content>
++</ion-view>
+\ No newline at end of file
+diff --git a/app/templates/tab-my.html b/app/templates/tab-my.html
+new file mode 100644
+index 0000000..9508220
+--- /dev/null
++++ b/app/templates/tab-my.html
+@@ -0,0 +1,4 @@
++<ion-view view-title="{{title}}">
++    <ion-content>
++    </ion-content>
++</ion-view>
+\ No newline at end of file
+diff --git a/app/templates/tab-shop.html b/app/templates/tab-shop.html
+new file mode 100644
+index 0000000..dd45270
+--- /dev/null
++++ b/app/templates/tab-shop.html
+@@ -0,0 +1,11 @@
++<ion-view view-title="{{title}}">
++
++    <ion-content>
++        <div class="button-bar">
++            <button class="button">价格</button>
++            <button class="button">2</button>
++            <button class="button button-clear icon ion-gear-a"></button>
++            <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
++        </div>
++    </ion-content>
++</ion-view>
+diff --git a/app/templates/tab-wine-detail.html b/app/templates/tab-wine-detail.html
+new file mode 100644
+index 0000000..c9a944c
+--- /dev/null
++++ b/app/templates/tab-wine-detail.html
+@@ -0,0 +1,29 @@
++<ion-view view-title="{{title}}">
++    <ion-content class="padding-left">
++        <div class="button-bar">
++            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">价格</button>
++            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">销量</button>
++            <button class="button button-small button-clear icon ion-grid"></button>
++        </div>
++        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
++        </ion-refresher>
++        <div class="wine_dr" id="wine_list">
++            <dl ng-repeat="item in itemList">
++                <dt>
++                    <a href="">
++                        <img src="{{resourceURL}}{{item.logo}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
++                    </a>
++                </dt>
++                <dd>
++                    <ul>
++                        <li><a class='entry_title' href='#'>{{item.name}}</a></li>
++                        <li><em>海外价£{{item.overseasPrice}}</em><i>销量{{item.salesNum}} </i></li>
++                        <li><span>商城价<b>￥{{item.shopPrivice}}</b></span></li>
++                    </ul>
++                </dd>
++            </dl>
++        </div>
++        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
++        </ion-infinite-scroll>
++    </ion-content>
++</ion-view>
+diff --git a/app/templates/tab-wine.html b/app/templates/tab-wine.html
+new file mode 100644
+index 0000000..c9a944c
+--- /dev/null
++++ b/app/templates/tab-wine.html
+@@ -0,0 +1,29 @@
++<ion-view view-title="{{title}}">
++    <ion-content class="padding-left">
++        <div class="button-bar">
++            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">价格</button>
++            <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">销量</button>
++            <button class="button button-small button-clear icon ion-grid"></button>
++        </div>
++        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
++        </ion-refresher>
++        <div class="wine_dr" id="wine_list">
++            <dl ng-repeat="item in itemList">
++                <dt>
++                    <a href="">
++                        <img src="{{resourceURL}}{{item.logo}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
++                    </a>
++                </dt>
++                <dd>
++                    <ul>
++                        <li><a class='entry_title' href='#'>{{item.name}}</a></li>
++                        <li><em>海外价£{{item.overseasPrice}}</em><i>销量{{item.salesNum}} </i></li>
++                        <li><span>商城价<b>￥{{item.shopPrivice}}</b></span></li>
++                    </ul>
++                </dd>
++            </dl>
++        </div>
++        <ion-infinite-scroll on-infinite="loadMoreItems()" ng-if="!end" icon="ion-loading-c">
++        </ion-infinite-scroll>
++    </ion-content>
++</ion-view>
+diff --git a/app/templates/tabs.html b/app/templates/tabs.html
+index 0903e3e..88f9849 100644
+--- a/app/templates/tabs.html
++++ b/app/templates/tabs.html
+@@ -9,6 +9,19 @@ navigation history that also transitions its views in and out.
+   <ion-tab title="达人圈" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/daren">
+     <ion-nav-view name="tab-daren"></ion-nav-view>
+   </ion-tab>
++    <!-- Account Tab -->
++  <ion-tab title="红酒" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/wine">
++    <ion-nav-view name="tab-wine"></ion-nav-view>
++  </ion-tab>
++  <ion-tab title="首页" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/home">
++    <ion-nav-view name="tab-home"></ion-nav-view>
++  </ion-tab>
++  <ion-tab title="购物车" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/shop">
++    <ion-nav-view name="tab-shop"></ion-nav-view>
++  </ion-tab>
++  <ion-tab title="我的" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/my">
++    <ion-nav-view name="tab-my"></ion-nav-view>
++  </ion-tab>
+ 
+ 
+ </ion-tabs>
+diff --git a/gulpfile.js b/gulpfile.js
+index 976d9f0..99874b1 100644
+--- a/gulpfile.js
++++ b/gulpfile.js
+@@ -11,7 +11,6 @@ var mainBowerFiles = require('main-bower-files');
+ var connectLr = require('connect-livereload');
+ var streamqueue = require('streamqueue');
+ var runSequence = require('run-sequence');
+-var server = require('gulp-server-livereload');
+ var open = require('open');
+ var targetDir = "www";
+ 
+@@ -70,7 +69,7 @@ gulp.task('styles', function() {
+         style: 'expanded'
+     };
+ 
+-    var sassStream = gulp.src('app/styles/main.scss')
++    var sassStream = gulp.src(['app/styles/main.scss','app/styles/app.css'])
+         .pipe(plugins.sass(options))
+         .on('error', function(err) {
+             console.log('err: ', err);
+@@ -88,7 +87,7 @@ gulp.task('styles', function() {
+             beep();
+           });*/
+ 
+-    return gulp.src(['app/styles/app.css', 'app/styles/main.scss'])
++    return gulp.src(['app/styles/app.scss', 'app/styles/main.scss'])
+         .pipe(plugins.sass(options))
+         .pipe(plugins.autoprefixer('last 1 Chrome version', 'last 3 iOS versions', 'last 3 Android versions'))
+         //.pipe(plugins.order(['app/styles/main.css','app/styles/app.css']).pipe(plugins.print()))
+@@ -126,7 +125,9 @@ gulp.task('index', ['scripts'], function() {
+             cwd: targetDir
+         }), 'app-styles'))
+         .pipe(_inject(_getAllScriptSources(), 'app'))
+-        .pipe(_inject(gulp.src(mainBowerFiles(),{read:false}), 'bower'))
++        .pipe(_inject(gulp.src(mainBowerFiles(), {
++            read: false
++        }), 'bower'))
+         //.pipe(angularFilesort())
+         .pipe(gulp.dest(targetDir))
+         .on('error', errorHandler);
+@@ -155,17 +156,29 @@ gulp.task('watchers', function() {
+ 
+ // start local express server
+ gulp.task('serve', function() {
+-    express()
+-        .use(connectLr())
+-        .use(express.static(targetDir))
+-        .listen(9000);
++    /* express()
++         .use(connectLr())
++         .use(express.static(targetDir))
++         .listen(9000);*/
++    plugins.connect.server({
++        root: targetDir,
++        livereload: true,
++        port: 9000
++        /*middleware: function(connect, opt) {
++            var Proxy = require('gulp-connect-proxy');
++            opt.route = '/api';
++            //opt.root = 'http://alcoholways.com:8080/api'
++            var proxy = new Proxy(opt);
++            return [proxy];
++        }*/
++    })
+     open('http://localhost:9000/');
+ });
+ 
+ // copy fonts
+ gulp.task('fonts', function() {
+-  return gulp
+-    .src(['app/fonts/*.*', 'bower_components/ionic/release/fonts/*.*'])
++    return gulp
++        .src(['app/fonts/*.*', 'bower_components/ionic/release/fonts/*.*'])
+ 
+     .pipe(gulp.dest(path.join(targetDir, 'fonts')))
+ 
+@@ -190,7 +203,7 @@ gulp.task('default', function(done) {
+         ],
+         'index',
+         'watchers',
+-        //'serve',
++        'serve',
+         done);
+ });
+ 
+@@ -212,4 +225,3 @@ gulp.task('build', function(done) {
+         //'serve',
+         done);
+ });
+-
+diff --git a/package.json b/package.json
+index db3ce23..916a724 100644
+--- a/package.json
++++ b/package.json
+@@ -18,6 +18,7 @@
+     "gulp-changed": "^1.1.1",
+     "gulp-concat": "^2.4.3",
+     "gulp-connect": "^2.2.0",
++    "gulp-connect-proxy": "^0.3.1",
+     "gulp-iconfont": "^1.0.0",
+     "gulp-iconfont-css": "0.0.9",
+     "gulp-if": "^1.2.5",
