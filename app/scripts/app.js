@@ -39,12 +39,10 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
     $httpProvider.interceptors.push(function($rootScope) {
         return {
             request: function(config) {
-                console.log('sending request ... ...');
                 $rootScope.$broadcast('loading:show');
                 return config
             },
             response: function(response) {
-                console.log('receive response ... ...');
                 $rootScope.$broadcast('loading:hide');
                 return response
             }
@@ -98,9 +96,10 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
         })
         .state('daren-detail', {
             url: '/daren-detail/:drId',
+            cache: false,
             abstract:true,
             templateUrl: 'templates/daren-detail-tab.html',
-            controller: 'DrdetailController',
+            controller: 'DrdetailController'
            /* views: {
                 'tab-daren': {
                     templateUrl: 'templates/tab-daren-detail.html',
@@ -110,6 +109,7 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
         })
         .state('daren-detail.main', {
             url: '/main',
+            //cache: false,
             views: {
                 'detail-main': {
                     templateUrl: 'templates/daren-detail-main.html',
@@ -119,6 +119,7 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
         })
         .state('daren-detail.info', {
             url: '/info',
+            //cache: false,
             views: {
                 'detail-info': {
                     templateUrl: 'templates/daren-detail-info.html',
@@ -128,6 +129,7 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
         })
         .state('daren-detail.comment', {
             url: '/comment',
+            //cache: false,
             views: {
                 'detail-comment': {
                     templateUrl: 'templates/daren-detail-comment.html',

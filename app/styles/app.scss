@@ -87,7 +87,7 @@ h4 a{ float:right; color:#999;}
 
 /*达人_start*/
 	/*达人头像*/
-	.wine_drtx2{position: relative; float:left; width:90%; margin:20px 10px auto;}
+	.wine_drtx2{position: relative; /*float:left;*/ width:90%; margin:20px 10px auto;}
 	.wine_drtx2 li a{position:absolute; width:30%; text-align:center;color:#999; font-size:0.7em; line-height:2em;}
 	.wine_drtx2 li a.l{ left:0; top:36%;}
 	.wine_drtx2 li a.r{ right:0; top:36%;}

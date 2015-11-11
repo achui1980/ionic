@@ -1,5 +1,8 @@
 <ion-view>
      <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
+      <ion-nav-buttons>
+        <a class="button icon-left ion-chevron-left button-clear button-dark" ui-sref="tab.daren"></a>
+     </ion-nav-buttons>
      <ion-content>
         <div class="">
             <div class="wine_drtx2">
@@ -14,7 +17,7 @@
                             <p>帅哥</p>
                         </a>
                     </li>
-                    <li class="wine_dr_touxiang"><img src="{{resourceURL}}{{drInfo.headPic}}"></li>
+                    <li class="wine_dr_touxiang"><img src="{{resourceURL}}{{drInfo.headPic}}" style="height:115px;width:115px"></li>
                     <li>
                         <a href="" class="r"><img src="images/gz_icon.png">
                             <p>关注数 {{drInfo.fansAmount}}</p>
