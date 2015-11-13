@@ -11,7 +11,6 @@ angular.module('wineApp')
         var ajaxUrl = "";
         $scope.resourceURL = CONFIG.getResourceURL();
         var reloadDrInfo = $scope.drInfo == null ? true : false;
-
         var drId = $stateParams.drId;
         //获取达人信息
         var loadDrInfo = function(ajaxUrl) {
@@ -37,14 +36,13 @@ angular.module('wineApp')
             ajaxUrl = CONFIG.API.drlv + '?userId=' + drId + '&type=2';
             loadDrLv(ajaxUrl);
         }
-        var loadComment = function(type) {
-            var fetchSize = 5;
-            var url = CONFIG.API.drcomment + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
-            //if($scope.end) return;
+        var loadData = function(url, type, attr) {
             ajax.get(url).then(function(response) {
-                if (response.data.msg.length == 0) $scope.end = true;
-                Array.prototype.push.apply($scope.comments, response.data.msg);
+                var obj = eval('response.' + attr);
+                if (obj.length == 0) $scope.end = true;
+                Array.prototype.push.apply($scope.items, obj);
                 $scope.page++;
+                console.log($scope.page)
                 if (type == "refresh") {
                     $scope.$broadcast('scroll.refreshComplete');
                 } else if (type == "infinite") {
@@ -52,52 +50,60 @@ angular.module('wineApp')
                 }
             });
         }
-        var doRefresh = function() {
-            $scope.comments = [];
-            $scope.end = false;
-            $scope.page = 0;
-            loadComment('refresh');
-            //$scope.$broadcast('scroll.refreshComplete');
-        }
-        var loadMore = function() {
-            loadComment('infinite')
-        }
-
+        var _initScopeVars = function(params) {
+                for (var p in params) {
+                    $scope[p] = params[p];
+                }
+            }
+            //获取评论信息
+        var loadComment = function(type) {
+                var fetchSize = 5;
+                var url = CONFIG.API.drcomment + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
+                loadData(url, 'infinite', 'data.msg');
+            }
+            //获取我的推荐信息
         var loadRecomand = function(type) {
                 var fetchSize = 5;
                 var url = CONFIG.API.hotSell + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
-                //if($scope.end) return;
-                ajax.get(url).then(function(response) {
-                    if (response.data.msg.data.length == 0) $scope.end = true;
-                    Array.prototype.push.apply($scope.items, response.data.msg.data);
-                    $scope.page++;
-                    if (type == "refresh") {
-                        $scope.$broadcast('scroll.refreshComplete');
-                    } else if (type == "infinite") {
-                        $scope.$broadcast('scroll.infiniteScrollComplete');
-                    }
-                });
+                loadData(url, 'infinite', 'data.msg.data');
             }
             //点击comment页签
         if ($ionicTabsDelegate.selectedIndex() == 2) {
-            $scope.comments = [];
-            $scope.end = false;
-            $scope.page = 0;
-            $scope.loadMore = loadMore;
-            $scope.doRefresh = doRefresh;
+            _initScopeVars({
+                items: [],
+                end: false,
+                page: 0
+            });
+            $scope.loadMore = function() {
+                loadComment('infinite')
+            }
+            $scope.refresh = function() {
+                _initScopeVars({
+                    items: [],
+                    end: false,
+                    page: 0,
+                })
+                loadComment('refresh');
+            }
+
         } else if ($ionicTabsDelegate.selectedIndex() == 0) {
-            $scope.items = [];
-            $scope.page = 0;
-            $scope.end = false;
-            $scope.imgWidth = $window.innerWidth;
+            _initScopeVars({
+                items: [],
+                end: false,
+                page: 0,
+                imgWidth: $window.innerWidth
+            });
+
             $scope.loadMore = function() {
                 loadRecomand('infinite')
             };
             $scope.doRefresh = function() {
-                $scope.items = [];
-                $scope.end = false;
-                $scope.page = 0;
-                loadRecomand('refresh');
+                _initScopeVars({
+                    items: [],
+                    end: false,
+                    page: 0,
+                })
+                loadRecomand('refresh')
             };
         }
     });
