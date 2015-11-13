@@ -1,9 +1,11 @@
 <ion-view>
-     <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
-     <ion-nav-buttons>
+    <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
+    <ion-nav-buttons>
         <a class="button icon-left ion-chevron-left button-clear button-dark" ui-sref="tab.daren"></a>
-     </ion-nav-buttons>
-     <ion-content>
+    </ion-nav-buttons>
+    <ion-content>
+         <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher> 
         <div class="">
             <div class="wine_drtx2">
                 <ul ng-switch on="drInfo.sex">
@@ -26,5 +28,19 @@
                 </ul>
             </div>
         </div>
+        <div class="padding-top"></div>
+        <ion-list class="wine_tuijian">
+            <ion-item ng-repeat="item in items" class="no-padding">
+                <dl>
+                    <dt>
+                        <a href="dr.html" class="wine_mingcheng"><img src="{{resourceURL }}{{item.headPic}}">{{item.nickName}}</a><span><a href="" class="wine_zan"><img src="images/zanicon.png" />{{item.zanAmount}}</a></span></dt>
+                    <dd>
+                        <a href="products_more.html"><img class="recomand" src="{{resourceURL}}{{item.picUrl}}!{{imgWidth}}x{{imgWidth}}" /></a>
+                    </dd>
+                </dl>
+            </ion-item>
+        </ion-list>
+         <ion-infinite-scroll on-infinite="loadMore()" ng-if="!end" icon="ion-loading-c">
+        </ion-infinite-scroll>
     </ion-content>
 </ion-view>

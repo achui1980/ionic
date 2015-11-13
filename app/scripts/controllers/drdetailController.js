@@ -11,6 +11,7 @@ angular.module('wineApp')
         var ajaxUrl = "";
         $scope.resourceURL = CONFIG.getResourceURL();
         var reloadDrInfo = $scope.drInfo == null ? true : false;
+
         var drId = $stateParams.drId;
         //获取达人信息
         var loadDrInfo = function(ajaxUrl) {
@@ -37,30 +38,46 @@ angular.module('wineApp')
             loadDrLv(ajaxUrl);
         }
         var loadComment = function(type) {
-                var fetchSize = 5;
-                var url = CONFIG.API.drcomment + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
-                //if($scope.end) return;
-                ajax.get(url).then(function(response) {
-                    if (response.data.msg.length == 0) $scope.end = true;
-                    Array.prototype.push.apply($scope.comments, response.data.msg);
-                    $scope.page++;
-                    if(type == "refresh"){
-                        $scope.$broadcast('scroll.refreshComplete');
-                    }else if(type == "infinite"){
-                        $scope.$broadcast('scroll.infiniteScrollComplete');
-                    }
-                });
-            }
-        var doRefresh = function(){
+            var fetchSize = 5;
+            var url = CONFIG.API.drcomment + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
+            //if($scope.end) return;
+            ajax.get(url).then(function(response) {
+                if (response.data.msg.length == 0) $scope.end = true;
+                Array.prototype.push.apply($scope.comments, response.data.msg);
+                $scope.page++;
+                if (type == "refresh") {
+                    $scope.$broadcast('scroll.refreshComplete');
+                } else if (type == "infinite") {
+                    $scope.$broadcast('scroll.infiniteScrollComplete');
+                }
+            });
+        }
+        var doRefresh = function() {
             $scope.comments = [];
             $scope.end = false;
             $scope.page = 0;
             loadComment('refresh');
             //$scope.$broadcast('scroll.refreshComplete');
         }
-        var loadMore = function(){
+        var loadMore = function() {
             loadComment('infinite')
         }
+
+        var loadRecomand = function(type) {
+                var fetchSize = 5;
+                var url = CONFIG.API.hotSell + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
+                //if($scope.end) return;
+                ajax.get(url).then(function(response) {
+                    if (response.data.msg.data.length == 0) $scope.end = true;
+                    Array.prototype.push.apply($scope.items, response.data.msg.data);
+                    $scope.page++;
+                    if (type == "refresh") {
+                        $scope.$broadcast('scroll.refreshComplete');
+                    } else if (type == "infinite") {
+                        $scope.$broadcast('scroll.infiniteScrollComplete');
+                    }
+                });
+            }
             //点击comment页签
         if ($ionicTabsDelegate.selectedIndex() == 2) {
             $scope.comments = [];
@@ -68,5 +85,19 @@ angular.module('wineApp')
             $scope.page = 0;
             $scope.loadMore = loadMore;
             $scope.doRefresh = doRefresh;
+        } else if ($ionicTabsDelegate.selectedIndex() == 0) {
+            $scope.items = [];
+            $scope.page = 0;
+            $scope.end = false;
+            $scope.imgWidth = $window.innerWidth;
+            $scope.loadMore = function() {
+                loadRecomand('infinite')
+            };
+            $scope.doRefresh = function() {
+                $scope.items = [];
+                $scope.end = false;
+                $scope.page = 0;
+                loadRecomand('refresh');
+            };
         }
     });
