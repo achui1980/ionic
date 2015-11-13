@@ -1,9 +1,11 @@
 <ion-view>
-     <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
-      <ion-nav-buttons>
+    <ion-nav-title>达人 {{drInfo.realName}} </ion-nav-title>
+    <ion-nav-buttons>
         <a class="button icon-left ion-chevron-left button-clear button-dark" ui-sref="tab.daren"></a>
-     </ion-nav-buttons>
-     <ion-content>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher> 
         <div class="">
             <div class="wine_drtx2">
                 <ul ng-switch on="drInfo.sex">
@@ -26,5 +28,15 @@
                 </ul>
             </div>
         </div>
+        <div  class="padding-top"></div>
+        <ion-list>
+            <ion-item ng-repeat="item in comments" class="item-thumbnail-left">
+                <img ng-src="{{resourceURL}}{{item.headPic}}">
+                <h2>{{item.userName}}</h2>
+                <p>{{item.content}}</p>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()" ng-if="!end" icon="ion-loading-c">
+        </ion-infinite-scroll>
     </ion-content>
 </ion-view>
