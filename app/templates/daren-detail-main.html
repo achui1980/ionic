@@ -26,5 +26,14 @@
                 </ul>
             </div>
         </div>
+        <div class="padding-top"></div>
+         <ion-list class="wine_tuijian">
+            <ion-item ng-repeat="item in items" class="no-padding">
+                <dl>
+                <dt><a href="dr.html" class="wine_mingcheng"><img src="{{resourceURL }}{{item.headPic}}">{{item.nickName}}</a><span><a href="" class="wine_zan"><img src="images/zanicon.png" />{{item.zanAmount}}</a></span></dt>
+                <dd><a href="products_more.html"><img class="recomand" src="{{resourceURL}}{{item.picUrl}}" /></a></dd>
+            </dl>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>

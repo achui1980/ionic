@@ -68,5 +68,12 @@ angular.module('wineApp')
             $scope.page = 0;
             $scope.loadMore = loadMore;
             $scope.doRefresh = doRefresh;
+        }else if($ionicTabsDelegate.selectedIndex() == 0){
+            var fetchSize = 5;
+            $scope.page = 0;
+            var url = CONFIG.API.hotSell + '?userId=' + drId + '&offset=' + ($scope.page * fetchSize) + '&fetchSize=' + fetchSize;
+            ajax.get(url).then(function(response){
+                $scope.items = response.data.msg.data;
+            })
         }
     });
