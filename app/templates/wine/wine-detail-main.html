@@ -6,27 +6,36 @@
     <ion-content>
         <div class="wine_jzbanner">
             <dl>
-                <dt><img id="jzlogo" src="images/temp/jzlogo.jpg"></dt>
-                <dd><a id="jzlink">大班麦克威酒庄</a></dd>
+                <dt><img id="jzlogo" ng-src="{{resourceURL}}{{jzInfo.logoPicUrl}}!50x50"></dt>
+                <dd><a id="jzlink">{{jzInfo.name}}</a></dd>
             </dl>
         </div>
         <div class="wine_products_more">
             <dl>
-                <dt><img src="images/temp/tjtu.jpg"></dt>
-                <dd>黄尾袋鼠幕斯卡白葡萄酒
-                    <br><span>搭配菜肴：白肉、色拉、前菜</span></dd>
+                <dt><img ng-src="{{resourceURL}}{{wine.logo}}!{{imgWidth}}x{{imgWidth}}"></dt>
+                <dd>{{wine.name}}
+                    <br><span>{{card.tips}}</span></dd>
             </dl>
         </div>
         <div class="wine_price">
             <ul>
-                <li><em>当前汇率：9.6£</em>海外价：<b>350</b></li>
-                <li>商城价：<b> 320</b><i>（海外价+税费物流费用）</i></li>
-                <li>销 量：<b>7</b></li>
+                <li><em>当前汇率：{{rate}}</em>海外价：<b>{{wine.overseasPrice}}</b></li>
+                <li>商城价：<b> {{wine.shopPrivice}}/{{wine.units}}</b><i>（海外价+税费物流费用）</i></li>
+                <li>销 量：<b>{{wine.salesNum}}</b></li>
                 <li>
-                    <label>数量：</label><a href="" class="bor_Rnone">-</a> <span><input
-                      type="text" class="bb_inpNO" value="1" maxlength="5" name="wineNum"
-                      id="wineNum" /> </span><a href="" class="bor_Lnone">+</a></li>
+                    <label>数量：</label><a ng-click="calWineNum('minus')" class="bor_Rnone">-</a> <span><input
+                      type="text"  class="bb_inpNO" value="{{wineNum}}" maxlength="5" name="wineNum"
+                      id="wineNum" style="height:20px"/> </span><a ng-click="calWineNum('plus')" class="bor_Lnone">+</a></li>
             </ul>
         </div>
     </ion-content>
+    <!--     <ion-footer-bar align-title="left" class="bar-assertive">
+    <div class="buttons">
+        <button class="button">左侧按钮</button>
+    </div>
+    <h1 class="title">Title!</h1>
+    <div class="buttons" ng-click="doSomething()">
+        <button class="button">右侧按钮</button>
+    </div>
+</ion-footer-bar> -->
 </ion-view>
