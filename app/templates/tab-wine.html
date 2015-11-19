@@ -1,5 +1,5 @@
 <ion-view view-title="{{title}}">
-    <ion-content class="padding-left">
+    <ion-content class="">
         <div class="button-bar">
             <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">价格</button>
             <button class="button button-small button-clear  icon-right  ion-ios-arrow-thin-up">销量</button>
@@ -7,10 +7,10 @@
         </div>
         <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
         </ion-refresher>
-        <div class="wine_dr" id="wine_list">
+        <div class="wine_dr wine_redjiu" id="wine_list">
             <dl ng-repeat="item in itemList">
                 <dt>
-                    <a href="">
+                    <a href="#/wine-detail/{{item.id}}/main">
                         <img src="{{resourceURL}}{{item.logo}}!{imgWidth}x{imgWidth}" alt="" height={{imgWidth}}>
                     </a>
                 </dt>

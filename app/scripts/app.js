@@ -94,11 +94,12 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
                 }
             }
         })
+        //达人模块路由
         .state('daren-detail', {
             url: '/daren-detail/:drId',
             cache: false,
             abstract:true,
-            templateUrl: 'templates/daren-detail-tab.html',
+            templateUrl: 'templates/dr/daren-detail-tab.html',
             controller: 'DrdetailController'
            /* views: {
                 'tab-daren': {
@@ -112,7 +113,7 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
             //cache: false,
             views: {
                 'detail-main': {
-                    templateUrl: 'templates/daren-detail-main.html',
+                    templateUrl: 'templates/dr/daren-detail-main.html',
                     controller: 'DrdetailController'
                 }
             }
@@ -122,7 +123,7 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
             //cache: false,
             views: {
                 'detail-info': {
-                    templateUrl: 'templates/daren-detail-info.html',
+                    templateUrl: 'templates/dr/daren-detail-info.html',
                     controller: 'DrdetailController'
                 }
             }
@@ -132,8 +133,46 @@ angular.module('wineApp', ['ionic', 'ngCordova', 'ngResource', 'wineApp.ajax', '
             //cache: false,
             views: {
                 'detail-comment': {
-                    templateUrl: 'templates/daren-detail-comment.html',
+                    templateUrl: 'templates/dr/daren-detail-comment.html',
                     controller: 'DrdetailController'
+                }
+            }
+        })
+        //酒庄模块路由
+        .state('wine-detail', {
+            url: '/wine-detail/:wineId',
+            cache: false,
+            abstract:true,
+            templateUrl: 'templates/wine/wine-detail-tab.html',
+            controller: 'WinedetailController'
+        })
+        .state('wine-detail.main', {
+            url: '/main',
+            //cache: false,
+            views: {
+                'detail-main': {
+                    templateUrl: 'templates/wine/wine-detail-main.html',
+                    controller: 'WinedetailController'
+                }
+            }
+        })
+        .state('wine-detail.info', {
+            url: '/info',
+            //cache: false,
+            views: {
+                'detail-info': {
+                    templateUrl: 'templates/wine/wine-detail-info.html',
+                    controller: 'WinedetailController'
+                }
+            }
+        })
+        .state('wine-detail.intro', {
+            url: '/intro',
+            //cache: false,
+            views: {
+                'detail-intro': {
+                    templateUrl: 'templates/wine/wine-detail-intro.html',
+                    controller: 'WinedetailController'
                 }
             }
         })

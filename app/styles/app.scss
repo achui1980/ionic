@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-
-*{ margin:0; padding:0;}
-a{ text-decoration:none; color:#fff;}
+body{width:100%; font-family: Roboto, Arial, Helvetica, sans-serif; font-size:1em;}
+a{ text-decoration:none;}
+a:link {color: black}
+a:visited {color: black}
+a:hover {color: black}
+a:active {color: black}
 li{ list-style:none;}
 img,a img{ border:none; display:block;}
 i, em{ font-style:normal;}
@@ -41,7 +44,7 @@ input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
 	
 	/*首页 达人*/
 	.wine_dr{ display:inline-block; width:100%;}
-	.wine_dr dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_dr dl{display:inline-block; width:48%; margin:4px 3px 0px 3px; position: relative; border:1px #eee solid;}
 	.wine_dr dt img{ width:100%;}
 	.wine_dr dd{ float:left; padding:4% 3%; width:94%;}
 	.wine_dr dd p{ float:left; width:100%; position:relative; z-index:2; line-height:1.6em; font-size:0.8em;}
@@ -137,7 +140,7 @@ input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
 	.wine_drbz span a.wine_zan img{ float:left; width:24%; margin:12px 3px 0 0;}
 	/*红酒*/
 	.wine_redjiu{ display:inline-block; width:100%;}
-	.wine_redjiu dl{display:inline-block; width:46%; margin:2% 0% 1% 2%; position: relative; border:1px #eee solid;}
+	.wine_redjiu dl{display:inline-block; width:48%; margin:4px 3px 0px 3px; position: relative; border:1px #eee solid;}
 	.wine_redjiu dt img{ width:100%;}
 	.wine_redjiu dd{ float:left; position:relative; z-index:2; width:94%; margin:2% 3%;}
 	.wine_redjiu dd li{ float:left; width:100%; }
