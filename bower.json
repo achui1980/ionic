@@ -8,10 +8,10 @@
     "angular": "~1.4.3",
     "ngCordova": "~0.1.17-alpha",
     "angular-resource": "~1.4.3",
-    "lodash": "~3.10.0"
+    "lodash": "~3.10.0",
+    "angular-local-storage": "~0.2.3"
   },
   "resolutions": {
     "angular": "1.4.3"
   }
-
 }
