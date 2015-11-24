@@ -4,6 +4,53 @@
         <a class="button icon-left ion-chevron-left button-clear button-dark" ui-sref="tab.wine"></a>
     </ion-nav-buttons>
     <ion-content>
-       info
+       <div class="wine_jzbanner">
+            <dl>
+                <dt><img id="jzlogo" ng-src="{{resourceURL}}{{jzInfo.logoPicUrl}}!50x50"></dt>
+                <dd><a id="jzlink">{{jzInfo.name}}</a></dd>
+            </dl>
+        </div>
+        <div class="wine_products_more">
+            <dl>
+                <dt><img ng-src="{{resourceURL}}{{wine.logo}}!{{imgWidth}}x{{imgWidth}}"></dt>
+                <dd>{{wine.name}}
+                    <br><span>{{card.tips}}</span></dd>
+            </dl>
+        </div>
+        <div class="wine_price">
+            <ul>
+                <li><em>当前汇率：{{rate}}</em>海外价：<b>{{wine.overseasPrice}}</b></li>
+                <li>商城价：<b> {{wine.shopPrivice}}/{{wine.units}}</b><i>（海外价+税费物流费用）</i></li>
+                <li>销 量：<b>{{wine.salesNum}}</b></li>
+                <li>
+                    <label>数量：</label><a ng-click="calWineNum('minus')" class="bor_Rnone">-</a> <span><input
+                      type="text"  class="bb_inpNO" value="{{wineNum}}" maxlength="5" name="wineNum"
+                      id="wineNum" style="height:20px"/> </span><a ng-click="calWineNum('plus')" class="bor_Lnone">+</a></li>
+            </ul>
+        </div>
+        <div class="wine_id" id="pro2">
+          <h3 class="h3_font">酒品自白</h3>
+            <ul>
+            	<li>类型：{{card.confType}}</li>
+                <li>酒精度：{{card.confDegree}}%</li>
+                <li>净含量：{{card.confCapacity}}ML</li>
+                <li>葡萄品种：{{card.confKind}}</li>
+                <li>产区：{{card.confArea}}</li>
+        	</ul>
+         <h3 class="h3_font">品尝温度</h3>
+            <ul>
+            	<li>最佳品尝温度：{{card.tpeGood}}</li>
+                <li>建议醒酒时间：{{card.tpeTime}}分钟</li>
+                <li>口感：{{card.paraMouth}}</li>
+                <li>余香：{{card.paraFragrance}}</li>
+                <li>果香：{{card.paraFruity}}</li>
+                <li>视觉：{{card.paraFruity}}</li>
+                <li>总体：{{card.paraTotal}}</li>
+        	</ul>
+         <h3 class="h3_font">TIPC</h3>
+            <ul>
+            	<li>{{card.tips}}</li>
+        	</ul>
+    </div>
     </ion-content>
 </ion-view>

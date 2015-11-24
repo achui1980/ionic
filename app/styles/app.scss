@@ -9,7 +9,14 @@ a:active {color: black}
 li{ list-style:none;}
 img,a img{ border:none; display:block;}
 i, em{ font-style:normal;}
-input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
+input,textarea{font-family: Roboto, Arial, Helvetica, sans-serif;}
+
+.h3_font{
+	font-size: 1em;
+	font-weight: 400;
+	padding: 10px 0 5px 10px;
+	color: #6b4485;
+}
 
 /*top_start*/
 .wine_header{ position:fixed; width:100%; top:0px; left:0px; z-index: 2000; height:48px; line-height:48px; background:url(../images/topbg.jpg) no-repeat; background-size: cover; color:#6b4485;}
@@ -273,7 +280,7 @@ input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
 .wine_cloes a{position:fixed; display:block; left:40%; width:20%; text-indent:-9999px; width:60px; height:60px; bottom:100px; background:url(../images/cloes_icon.png) no-repeat center 0; text-align:center;}
 
 /*产品详情*/
-.wine_jzbanner{ float:left; width:94%; background:url(../images/temp/jzbg.jpg) repeat-x; padding:10px 3%;}
+.wine_jzbanner{ float:left; width:100%; background:url(../images/temp/jzbg.jpg) repeat-x; padding:10px 3%;}
 .wine_jzbanner dt img{ float:left; width:60px;}
 .wine_jzbanner dd{ float:left; margin:18px 0 0 10px; color:#fff;}
 .wine_jzbanner dd a{ padding:5px 10px; background-color:#6b4485; margin-left:10px; border-radius:3px;}
@@ -449,3 +456,5 @@ input,textarea{font-family: '微软雅黑', Arial, Helvetica, sans-serif;}
 	.wine_fbtu_list li{ float:left; width:100%; border-bottom:1px #f6f6f6 solid; padding:3% 0;}
 	.wine_fbtu_list li a img{ float:left; width:20%;}
 	.wine_fbtu_list li a span{ float:left; width:77%; margin-left:3%; color:#333;}
+
+	
